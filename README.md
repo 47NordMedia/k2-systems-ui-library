@@ -4,25 +4,39 @@
 
 This library is used as a single source for UI elements throughout the K2 Systems' digital services.
 
-## Usage
+## Setup
 
 ### Prerequisites
 
 - Tailwind.css >= 3
 
+### tailwind.config.js
+
+Add the config file of the ui-library to your `tailwind.config.js`
+
+```js
+module.exports = {
+  presets: [require("<library>/tailwind.config.js")],
+  // config specific to this project would go here
+  // ...
+};
+```
+
+## Usage
+
 ### HTML
 
 todo...
 
-#### Example
+#### Example (HTML)
 
 todo...
 
-### JS Framework (e.g. react.js)
+### JS Framework
 
 todo ...
 
-#### Example
+#### Example (react.js)
 
 ```js
 import { classes } from "<library>";

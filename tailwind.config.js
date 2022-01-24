@@ -1,6 +1,6 @@
-// eslint-disable-next-line @typescript-eslint/no-var-requires
 // const colors = require('tailwindcss/colors');
 
+/* eslint-env node */
 module.exports = {
   // @see https://tailwindcss.com/docs/upcoming-changes
   future: {
@@ -36,6 +36,5 @@ module.exports = {
     },
   },
   variants: {},
-  // eslint-disable-next-line global-require
   plugins: [require('tailwindcss'), require('precss'), require('autoprefixer')],
 };
