@@ -32,7 +32,7 @@ body:
     attributes:
       label: Usage guide
       description: Provide one or more short code examples on how to use the class.
-      placeholder: Tell us what you see!
+      placeholder: Give use some real world examples!
       value: |
         ```
         <div class="button">Hello World!</div>
