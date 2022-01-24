@@ -1,0 +1,25 @@
+{
+  "name": "k2-systems-ui-library",
+  "version": "0.0.1",
+  "description": "K2 Systems UI library for web based projects",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/47NordMedia/k2-systems-ui-library.git"
+  },
+  "author": "florianporada",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/47NordMedia/k2-systems-ui-library/issues"
+  },
+  "homepage": "https://github.com/47NordMedia/k2-systems-ui-library#readme",
+  "dependencies": {
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.5",
+    "precss": "^4.0.0",
+    "tailwindcss": "^3.0.15"
+  }
+}

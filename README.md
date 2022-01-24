@@ -1,10 +1,14 @@
-# k2-systems-ui-library
+# K2 Systems library
 
 ## Description
 
 This library is used as a single source for UI elements throughout the K2 Systems' digital services.
 
 ## Usage
+
+### Prerequisites
+
+- Tailwind.css >= 3
 
 ### HTML
 
