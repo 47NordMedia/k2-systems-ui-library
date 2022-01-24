@@ -7,7 +7,9 @@ module.exports = {
     removeDeprecatedGapUtilities: true,
     purgeLayersByDefault: true,
   },
-  purge: ['./src/pages/**/*.{js,ts,jsx,tsx}', './src/components/**/*.{js,ts,jsx,tsx}'],
+  content: [
+    './node_modules/<library>/dist/**/*.{js,ts}', // TODO: change to name
+  ],
   theme: {
     fontFamily: {
       display: ['Inter', 'system-ui', 'sans-serif'],

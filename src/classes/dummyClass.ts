@@ -1,0 +1,1 @@
+export default 'bg-gray-100 rounded-2xl';

@@ -1,6 +1,6 @@
 {
-  "watch": "./src/**",
+  "watch": "./src/builder/**/*",
   "ext": ".ts,.json",
   "ignore": [],
-  "exec": "ts-node --project tsconfig.json ./src/index.ts"
+  "exec": "ts-node --project tsconfig.json ./src/builder/index.ts -c 'dummy-class' -l 'bg-gray-100 rounded-2xl'"
 }
