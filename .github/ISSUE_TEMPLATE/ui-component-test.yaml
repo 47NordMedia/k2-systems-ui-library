@@ -1,8 +1,7 @@
 name: New UI Component Test
-about: For adding a new component to the ui library
+description: For adding a new component to the ui library
 title: "[NEW]: <component-name>"
 labels: new component
-assignees: ""
 body:
   - type: markdown
     attributes:
