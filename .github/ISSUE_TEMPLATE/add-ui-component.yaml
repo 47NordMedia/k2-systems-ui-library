@@ -3,6 +3,14 @@ description: For adding a new component to the ui library
 title: "[NEW]: <component-name>"
 labels: new component
 body:
+  - type: textarea
+    id: about
+    attributes:
+      label: Description
+      description: Provide a short description about the UI component.
+      placeholder: Where can you find this component and what is it for?
+      value: |
+        A highlighted link/button which is used in the navigation bar.
   - type: input
     id: classname
     attributes:
@@ -24,7 +32,7 @@ body:
     attributes:
       label: Recommended elements
       description: List of HTML elements that the class should be used on.
-      placeholder: e.g. div, a, button, ... 
+      placeholder: e.g. div, a, button, ...
     validations:
       required: false
   - type: textarea
