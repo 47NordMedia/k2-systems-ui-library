@@ -3,24 +3,39 @@ description: For adding a new component to the ui library
 title: "[NEW]: <component-name>"
 labels: new component
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Thanks for taking the time to fill out this bug report!
   - type: input
-    id: contact
+    id: classname
     attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
+      label: Name of the CSS class
+      description: New CSS classname that will be available in the library.
+      placeholder: ex. button
+    validations:
+      required: true
+  - type: input
+    id: tailwind-classnames
+    attributes:
+      label: Tailwind classes
+      description: List of Tailwind classes that the UI component is based on.
+      placeholder: e.g. button
+    validations:
+      required: true
+  - type: input
+    id: recommended-elements
+    attributes:
+      label: Recommended elements
+      description: List of HTML elements that the class should be used on.
+      placeholder: e.g. div, a, button, ... 
     validations:
       required: false
   - type: textarea
-    id: what-happened
+    id: usage
     attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
+      label: Usage guide
+      description: Provide one or more short code examples on how to use the class.
       placeholder: Tell us what you see!
-      value: "A bug happened!"
+      value: |
+        ```
+        <div class="button">Hello World!</div>
+        ```
     validations:
       required: true
