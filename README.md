@@ -10,9 +10,23 @@ This library is used as a single source for UI elements throughout the K2 System
 
 todo...
 
+#### Example
+
+todo...
+
 ### JS Framework (e.g. react.js)
 
 todo ...
+
+#### Example
+
+```js
+import { classes } from "<library>";
+
+export default function Button() {
+  return <div className={`${classes.button} ...`}>Hello World!</div>;
+}
+```
 
 ## Workflow for adding new components
 
@@ -20,7 +34,7 @@ todo ...
 - Set the issue to 'approved' once its tested and reviewed.
 - [Open new pull request](https://github.com/47NordMedia/k2-systems-ui-library/compare) and link the created issue.
 - Merge pull request to main.
-- Check build workflow for potential errors
+- Check build workflow for potential errors.
 - Update ui library in you project to latest version.
 
 ### Multiple issues for nested components
