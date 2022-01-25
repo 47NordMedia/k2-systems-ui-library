@@ -29,12 +29,11 @@ Add the custom classes to your existing css files.
 ```css
 @tailwind base;
 @tailwind components;
-@tailwind utilities;
 
-@layer components {
-  /* NOT TESTED YET, MIGHT NEED POSTCSS CONFIG */
-  @import './node_modules/<library>/dist/main.css';
-}
+/* NOT TESTED YET, MIGHT NEED POSTCSS CONFIG */
+@import './node_modules/<library>/dist/main.css';
+
+@tailwind utilities;
 ```
 
 ## Usage
@@ -75,6 +74,37 @@ export default function Button() {
 ### Multiple issues for nested components
 
 - to do...
+
+## Examples
+
+To structure nested related components we use an adapted BEM naming convention.
+The CSS part will be the standard BEM convention.
+The JS part however will replace the **dash-case** naming convention and replace it with the **camelCase** naming convention. (see Example)
+
+```html
+<nav class="nav-menu">
+  <li class="nav-menu__item"></li>
+  <li class="nav-menu__item"></li>
+  <li class="nav-menu__item active"></li>
+</nav>
+```
+
+```ts
+// navMenu.ts
+export default 'flex align-center justify-between';
+
+// navMenu__item.ts
+export default 'p-2 bg-gray-100 rounded-xl hover:bg-gray-200';
+
+// index.ts
+import navMenu from './classes/navMenu';
+import navMenu__item from './classes/navMenu__item';
+
+export default {
+  navMenu: navMenu,
+  navMenu__item: navMenu__item,
+};
+```
 
 ## CLI Interface & CI/CD usage
 
