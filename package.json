@@ -1,6 +1,6 @@
 {
   "name": "k2-systems-ui-library",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "K2 Systems UI library for web based projects",
   "main": "dist/index.js",
   "scripts": {
