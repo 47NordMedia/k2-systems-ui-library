@@ -77,9 +77,17 @@ export default function Button() {
 
 ## Examples
 
-To structure nested related components we use an adapted BEM naming convention.
+To structure nested related components we use an **adapted BEM** naming convention.
 The CSS part will be the standard BEM convention.
-The JS part however will replace the **dash-case** naming convention and replace it with the **camelCase** naming convention. (see Example)
+
+The JS part however will replace the **dash-case** naming convention and replace it with the **camelCase** naming convention.
+
+All the CSS classes will be generated out of the JavaScript files. Below you can see how the classnames are being converted.
+
+```txt
+navMenu (js) --> nav-menu (css)
+navMenu__item (js) --> nav-menu__item (css)
+```
 
 ```html
 <nav class="nav-menu">

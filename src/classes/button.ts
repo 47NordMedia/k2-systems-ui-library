@@ -1,0 +1,1 @@
+export default 'bg-gray-100 rounded-xl hover:bg-gray-200';

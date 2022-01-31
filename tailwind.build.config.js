@@ -3,5 +3,5 @@
 /* eslint-env node */
 module.exports = {
   presets: [require('./tailwind.config.js')],
-  content: ['./src/classes/**/*.{js,ts}'],
+  content: ['./src/classes/**/*.{js,ts}', './src/index.html'],
 };

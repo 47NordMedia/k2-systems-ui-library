@@ -6,11 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon",
-    "build:production": "tsc --project tsconfig.json && cp ./tailwind.config.js ./dist/tailwind.config.js",
+    "build:production": "tsc --project tsconfig.json && cp ./tailwind.config.js ./dist/tailwind.config.js && npm run build:css",
     "build:tailwind": "npx tailwindcss -i ./dist/main.css -o ./dist/tailwind-compiled.css -c ./tailwind.build.config.js",
     "build:css": "ts-node --project tsconfig.json ./src/builder/index.ts --s",
-    "build:js": "ts-node --project tsconfig.json ./src/builder/index.ts",
-    "build:assets": "npm run build:js && npm run build:css"
+    "build:js": "ts-node --project tsconfig.json ./src/builder/index.ts"
   },
   "repository": {
     "type": "git",
@@ -44,6 +43,7 @@
     "eslint-plugin-prettier": "^4.0.0",
     "nodemon": "^2.0.15",
     "prettier": "^2.5.1",
+    "rimraf": "^3.0.2",
     "ts-node": "^10.4.0",
     "typescript": "^4.5.5"
   }
