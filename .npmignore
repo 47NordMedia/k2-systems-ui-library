@@ -1,0 +1,12 @@
+src
+.vs_code
+.github
+.eslintrc.js
+.eslintignore
+.prettierrc
+nodemon.json
+tailwind.build.config.js
+tailwind.config.js
+!dist/tailwind.config.js
+tsconfig.json
+yarn.lock

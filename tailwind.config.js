@@ -7,9 +7,7 @@ module.exports = {
     removeDeprecatedGapUtilities: true,
     purgeLayersByDefault: true,
   },
-  content: [
-    './node_modules/<library>/dist/**/*.{js,ts}', // TODO: change to name
-  ],
+  content: ['./node_modules/@47nordmedia/k2-systems-ui-library/dist/**/*.{js,ts}'],
   theme: {
     fontFamily: {
       display: ['Inter', 'system-ui', 'sans-serif'],

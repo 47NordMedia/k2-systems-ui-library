@@ -10,13 +10,25 @@ This library is used as a single source for UI elements throughout the K2 System
 
 - Tailwind.css >= 3
 
+### Add package
+
+```bash
+npm install --save @47nordmedia/k2-systems-ui-library
+```
+
+or
+
+```bash
+yarn add @47nordmedia/k2-systems-ui-library
+```
+
 ### tailwind.config.js
 
 Add the config file of the ui-library to your `tailwind.config.js`
 
 ```js
 module.exports = {
-  presets: [require('<library>/dist/tailwind.config.js')],
+  presets: [require('@47nordmedia/k2-systems-ui-library/dist/tailwind.config.js')],
   // config specific to this project would go here
   // ...
 };
@@ -31,7 +43,7 @@ Add the custom classes to your existing css files.
 @tailwind components;
 
 /* NOT TESTED YET, MIGHT NEED POSTCSS CONFIG */
-@import './node_modules/<library>/dist/main.css';
+@import './node_modules/@47nordmedia/k2-systems-ui-library/dist/main.css';
 
 @tailwind utilities;
 ```
@@ -55,7 +67,7 @@ todo ...
 #### Example (react.js)
 
 ```js
-import uiClasses from '<library>';
+import uiClasses from '@47nordmedia/k2-systems-ui-library';
 
 export default function Button() {
   return <div className={`${uiClasses.button} ...`}>Hello World!</div>;
@@ -144,4 +156,4 @@ fully automated process coming soon...
 - Fetching of the `ui-component` issue content.
 - Execution of the CLI with the content of the issue.
 - Creation of an pull request.
-- Publishing the updated code to a private npm package.
+- Publishing the updated code to a private NPM package.
