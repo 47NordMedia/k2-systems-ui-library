@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon",
-    "build:production": "tsc --project tsconfig.json && cp ./tailwind.config.js ./dist/tailwind.config.js && npm run build:css",
+    "build:production": "rimraf dist && tsc --project tsconfig.json && cp ./tailwind.config.js ./dist/tailwind.config.js && npm run build:css",
     "build:tailwind": "npx tailwindcss -i ./dist/main.css -o ./dist/tailwind-compiled.css -c ./tailwind.build.config.js",
     "build:css": "ts-node --project tsconfig.json ./src/builder/index.ts --s",
     "build:js": "ts-node --project tsconfig.json ./src/builder/index.ts"
