@@ -39,13 +39,12 @@ module.exports = {
 Add the custom classes to your existing css files.
 
 ```css
-@tailwind base;
-@tailwind components;
+@import "tailwindcss/base";
 
-/* NOT TESTED YET, MIGHT NEED POSTCSS CONFIG */
-@import './node_modules/@47nordmedia/k2-systems-ui-library/dist/main.css';
+@import "tailwindcss/components";
+@import '@47nordmedia/k2-systems-ui-library/dist/main.css';
 
-@tailwind utilities;
+@import "tailwindcss/utilities";
 ```
 
 ## Usage
