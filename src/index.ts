@@ -5,4 +5,3 @@ export default {
   button: button,
   dummyClass: dummyClass,
 };
-    

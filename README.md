@@ -49,9 +49,9 @@ Add the custom classes to your existing css files.
 
 ## Usage
 
-### HTML
+### Icon Library
 
-todo...
+[ICON LIBRARY](./ICONS.md)
 
 #### Example (HTML, PHP)
 
