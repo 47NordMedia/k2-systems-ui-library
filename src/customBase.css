@@ -2,8 +2,8 @@
   @font-face {
     font-family: Halvar;
     src:
-      url("/assets/font/HalvarMittel-Lt.woff2") format("woff2"),
-      url("/assets/font/HalvarMittel-Lt.woff") format("woff");
+      url("https://cdn.jsdelivr.net/npm/@47nordmedia/k2-systems-ui-library@latest/dist/assets/font/HalvarMittel-Lt.woff2") format("woff2"),
+      url("https://cdn.jsdelivr.net/npm/@47nordmedia/k2-systems-ui-library@latest/dist/assets/font/HalvarMittel-Lt.woff") format("woff");
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -12,8 +12,8 @@
   @font-face {
     font-family: Halvar;
     src:
-      url("/assets/font/HalvarMittel-Rg.woff2") format("woff2"),
-      url("/assets/font/HalvarMittel-Rg.woff") format("woff");
+      url("https://cdn.jsdelivr.net/npm/@47nordmedia/k2-systems-ui-library@latest/dist/assets/font/HalvarMittel-Rg.woff2") format("woff2"),
+      url("https://cdn.jsdelivr.net/npm/@47nordmedia/k2-systems-ui-library@latest/dist/assets/font/HalvarMittel-Rg.woff") format("woff");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -22,8 +22,8 @@
   @font-face {
     font-family: Halvar;
     src:
-      url("/assets/font/HalvarMittel-Md.woff2") format("woff2"),
-      url("/assets/font/HalvarMittel-Md.woff") format("woff");
+      url("https://cdn.jsdelivr.net/npm/@47nordmedia/k2-systems-ui-library@latest/dist/assets/font/HalvarMittel-Md.woff2") format("woff2"),
+      url("https://cdn.jsdelivr.net/npm/@47nordmedia/k2-systems-ui-library@latest/dist/assets/font/HalvarMittel-Md.woff") format("woff");
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -32,8 +32,8 @@
   @font-face {
     font-family: Halvar;
     src:
-      url("/assets/font/HalvarMittel-Bd.woff2") format("woff2"),
-      url("/assets/font/HalvarMittel-Bd.woff") format("woff");
+      url("https://cdn.jsdelivr.net/npm/@47nordmedia/k2-systems-ui-library@latest/dist/assets/font/HalvarMittel-Bd.woff2") format("woff2"),
+      url("https://cdn.jsdelivr.net/npm/@47nordmedia/k2-systems-ui-library@latest/dist/assets/font/HalvarMittel-Bd.woff") format("woff");
     font-weight: bold;
     font-style: normal;
     font-display: swap;
