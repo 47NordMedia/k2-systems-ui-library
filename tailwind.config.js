@@ -13,10 +13,7 @@ module.exports = {
       fontFamily: {
         display: ['Inter', 'system-ui', 'sans-serif'],
         body: ['Inter', 'system-ui', 'sans-serif'],
-        hv300: ['Halvar300'],
-        hv400: ['Halvar400'],
-        hv500: ['Halvar500'],
-        hv700: ['Halvar700'],
+        halvar: ['Halvar'],
       },
       colors: {
         transparent: 'transparent',
