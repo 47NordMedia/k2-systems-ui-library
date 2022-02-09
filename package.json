@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon",
-    "build:production": "rimraf dist && tsc --project tsconfig.builder.json && npm run build:webpack && copyfiles -f ./tailwind.config.js ./dist/ && npm run copy:assets && npm run build:css && npm run build:devcss",
+    "build:production": "rimraf dist && tsc --project tsconfig.builder.json && npm run build:webpack && copyfiles -f ./tailwind.config.js ./dist/ && npm run copy:assets && npm run copy:customCss && npm run build:css && npm run build:devcss",
     "build:devcss": "postcss ./src/input.css -o ./dist/output.css",
     "build:css": "ts-node --project tsconfig.builder.json ./src/builder/index.ts --s",
     "build:js": "ts-node --project tsconfig.builder.json ./src/builder/index.ts",
