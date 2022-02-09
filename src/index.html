@@ -5,13 +5,848 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/output.css" />
-    <script type="module" src="/icons.js"></script>
     <title>UI Library Overview</title>
   </head>
-  <body>
-    <div class="container mx-auto px-4">
-      <button class="bttn">Button</button>
-      <span class="icon icon-green-64 w-16 h-16"></span>
+  <body class="p-4 sm:p-8 bg-[#f4f4f4]">
+    <div class="logo__block mb-32">
+      <h3 class="text-sm sm:text-md border-b border-silverGrey pb-4 sm:pb-2 mb-8">Logo</h3>
+      <div class="flex">
+        <div class="basis-1/2">
+          <p class="text-light">Desktop</p>
+          <img src="./img/logo.svg" alt="logo" class="mt-4" />
+        </div>
+        <div class="basis-1/2">
+          <p class="text-light">Mobile</p>
+          <img src="./img/logo_mb.svg" alt="logo" class="mt-4" />
+        </div>
+      </div>
     </div>
+    <div class="type__block mb-32">
+      <h3 class="text-sm sm:text-md border-b border-silverGrey pb-4 sm:pb-2 mb-8">Type</h3>
+      <div class="flex flex-col sm:flex-row">
+        <div class="basis-1/2">
+          <p class="text-light pb-8">Halvar Mittelschrift</p>
+          <h1 class="text-md sm:text-xl font-halvar font-light tracking-tight">Regular</h1>
+          <h1 class="text-md sm:text-xl font-halvar font-medium tracking-tight">Medium</h1>
+          <h1 class="text-md sm:text-xl">Bold</h1>
+        </div>
+        <div class="basis-1/2 sm:text-right">
+          <h1 class="text-[280px] sm:text-[580px] leading-[260px] sm:leading-[460px]">Aa</h1>
+        </div>
+      </div>
+      <div class="mt-28">
+        <p class="text-light text-[18px]">Headings</p>
+        <h1 class="mb-16 text-md sm:text-xl">Connecting strength</h1>
+        <h3 class="mb-16">Connecting strength</h3>
+        <h4 class="mb-16">Connecting strength</h4>
+        <h5 class="mb-16">Connecting strength</h5>
+        <h6 class="mb-16">Connecting strength</h6>
+        <div class="grid grid-cols-none sm:grid-cols-2 gap-9">
+          <div>
+            <p class="text-xxs mb-6">
+              Neben unseren politischen Initiativen helfen wir auch da, wo ganz konkret Not am Mann ist. Dabei geht es
+              um schnelle und unbürokratische Maßnahmen, um Menschen wieder ein Stück Hoffnung zu geben – und
+              Perspektiven für ein besseres Leben. Zum Beispiel
+            </p>
+            <p class="text-xxs">
+              beteiligt sich K2 Systems immer wieder an Spendenaktionen für Flüchtlingscamps. Ein großer Vorteil: Unser
+              erfahrenes Logistikteam hat das Know-how, damit Hilfslieferungen sehr zielgenau und ohne Verzögerungen in
+              den jeweiligen Regionen ankommen Spendeaktion für Flüchtlingscamps.
+            </p>
+          </div>
+          <div>
+            <p class="text-4xs w-full sm:w-1/3 mx-auto">
+              En großer Vorteil: Unser erfahrenes Logistikteam hat das Know-how, damit Hilfslieferungen sehr zielgenau
+              und ohne Verzögerungen in den jeweiligen Regionen ankommen Spendeaktion für Flüchtlingscamps.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="color__block">
+      <h3 class="text-sm sm:text-md border-b border-silverGrey pb-4 sm:pb-2 mb-8">Color</h3>
+      <div class="mb-20">
+        <p class="text-light">Main</p>
+        <div class="flex w-full">
+          <div class="basis-1/3 sm:basis-1/6">
+            <div class="h-24 sm:h-64 bg-red my-5 mr-8"></div>
+            <p class="text-light">
+              K2 Red <br />
+              FD0000
+            </p>
+          </div>
+          <div class="basis-1/3 sm:basis-1/6">
+            <div class="h-24 sm:h-64 bg-black my-5 mr-8"></div>
+            <p class="text-light">
+              K2 Black <br />
+              191919
+            </p>
+          </div>
+          <div class="basis-1/3 sm:basis-1/6">
+            <div class="h-24 sm:h-64 bg-cream my-5 mr-8"></div>
+            <p class="text-light">
+              K2 Cream <br />
+              F2EBE3
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="mb-20">
+        <p class="text-light">Greyscale</p>
+        <div class="flex flex-wrap w-full">
+          <div class="basis-1/3 sm:basis-1/6">
+            <div class="h-24 sm:h-64 bg-darkGrey my-5 mr-8"></div>
+            <p class="text-light">
+              Dark silver grey <br />
+              585F69
+            </p>
+          </div>
+          <div class="basis-1/3 sm:basis-1/6">
+            <div class="h-24 sm:h-64 bg-silverGrey my-5 mr-8"></div>
+            <p class="text-light">
+              Silver grey <br />
+              A4ABB5
+            </p>
+          </div>
+          <div class="basis-1/3 sm:basis-1/6">
+            <div class="h-24 sm:h-64 bg-lightGrey my-5 mr-8"></div>
+            <p class="text-light">
+              Light silver grey <br />
+              CACED3
+            </p>
+          </div>
+          <div class="basis-1/3 sm:basis-1/6">
+            <div class="h-24 sm:h-64 bg-white my-5 mr-8"></div>
+            <p class="text-light">
+              white <br />
+              FFFFFF
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="mb-20">
+        <p class="text-light">Secondary</p>
+        <div class="flex flex-wrap w-full">
+          <div class="basis-1/3 sm:basis-1/6">
+            <div class="h-24 sm:h-64 bg-forestGreen flex items-center justify-center my-5 mr-8">
+              <div class="w-[40px] h-[40px] rounded-full bg-forestGreenAccent"></div>
+            </div>
+            <p class="text-light">
+              Forest green <br />
+              373A25
+            </p>
+            <p class="text-light mt-10">
+              Accent <br />
+              D9F670
+            </p>
+          </div>
+          <div class="basis-1/3 sm:basis-1/6">
+            <div class="h-24 sm:h-64 bg-brown flex items-center justify-center my-5 mr-8">
+              <div class="w-[40px] h-[40px] rounded-full bg-brownAccent"></div>
+            </div>
+            <p class="text-light">
+              Brown <br />
+              4D1086
+            </p>
+            <p class="text-light mt-10">
+              Accent <br />
+              FF5031
+            </p>
+          </div>
+          <div class="basis-1/3 sm:basis-1/6">
+            <div class="h-24 sm:h-64 bg-seaBlue flex items-center justify-center my-5 mr-8">
+              <div class="w-[40px] h-[40px] rounded-full bg-seaBlueAccent"></div>
+            </div>
+            <p class="text-light">
+              Sea blue <br />
+              1B2848
+            </p>
+            <p class="text-light mt-10">
+              Accent <br />
+              4E85EF
+            </p>
+          </div>
+          <div class="basis-1/3 sm:basis-1/6">
+            <div class="h-24 sm:h-64 bg-pink flex items-center justify-center my-5 mr-8">
+              <div class="w-[40px] h-[40px] rounded-full bg-pinkAccent"></div>
+            </div>
+            <p class="text-light">
+              Pink <br />
+              351625
+            </p>
+            <p class="text-light mt-10">
+              Accent <br />
+              F00250
+            </p>
+          </div>
+          <div class="basis-1/3 sm:basis-1/6">
+            <div class="h-24 sm:h-64 bg-orange flex items-center justify-center my-5 mr-8">
+              <div class="w-[40px] h-[40px] rounded-full bg-orangeAccent"></div>
+            </div>
+            <p class="text-light">
+              Orange <br />
+              442707
+            </p>
+            <p class="text-light mt-10">
+              Accent <br />
+              D08629
+            </p>
+          </div>
+          <div class="basis-1/3 sm:basis-1/6">
+            <div class="h-24 sm:h-64 bg-purple flex items-center justify-center my-5 mr-8">
+              <div class="w-[40px] h-[40px] rounded-full bg-purpleAccent"></div>
+            </div>
+            <p class="text-light">
+              Purple <br />
+              3A1837
+            </p>
+            <p class="text-light mt-10">
+              Accent <br />
+              BF22B0
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="user__interface mb-32">
+      <h3 class="text-sm sm:text-md border-b border-silverGrey pb-4 sm:pb-2 mb-8">User Interface</h3>
+      <h5 class="border-b pb-4 border-silverGrey mb-8">Buttons</h5>
+      <div class="text-light mb-8">
+        <p class="text-light mb-2">
+          Buttons : bttn + *-red / *-dis / *-black ,
+          <span class="italic text-4xs">e.g: class='bttn bttn-red'</span>
+        </p>
+
+        <p class="text-light mb-2">
+          Links : link + red / dis / black ,
+          <span class="italic text-4xs">e.g: class='link-red'</span>
+        </p>
+
+        <p class="text-light mb-2">
+          Links + icon : linkon + *-red / *-dis / *-black ,
+          <span class="italic text-4xs">e.g: class='linkon linkon-red'</span>
+        </p>
+        <p class="text-light">
+          Round + icon : roundcon + *-red / *-dis / *-black ,
+          <span class="italic text-4xs">e.g: class='roundcon roundcon-red'</span>
+        </p>
+      </div>
+      <div class="grid grid-cols-2 sm:grid-cols-6 gap-5">
+        <div class="mb-12 sm:mb-0">
+          <p class="text-light mb-14">Default</p>
+          <button class="bttn bttn-red mb-12">Button</button>
+          <button class="bttn bttn-dis mb-12">Button</button>
+          <button class="bttn bttn-black">Button</button>
+        </div>
+        <div class="mb-12 sm:mb-0">
+          <p class="text-light mb-14">Text + icon</p>
+          <button class="bttn bttn-red mb-12">
+            Button
+            <span class="icon icon-arrow-right-24 h-3 w-3"></span>
+          </button>
+          <button class="bttn bttn-dis group mb-12">Button</button>
+          <button class="bttn bttn-black group">
+            Button
+            <svg
+              width="14"
+              height="14"
+              viewBox="0 0 14 14"
+              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+              class="ml-2"
+            >
+              <path d="M0 7H12M12 7L6 1M12 7L6 13" stroke="currentColor" stroke-width="1.5" />
+            </svg>
+          </button>
+        </div>
+        <div class="mb-12 sm:mb-0">
+          <p class="text-light mb-14">Text + icon</p>
+          <button class="bttn bttn-red mb-12">
+            Button
+            <svg
+              width="10"
+              height="10"
+              viewBox="0 0 10 10"
+              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+              class="ml-2"
+            >
+              <path d="M0 5H10" stroke="currentColor" stroke-width="1.5" />
+              <path d="M5 10L5 2.38419e-07" stroke="currentColor" stroke-width="1.5" />
+            </svg>
+          </button>
+          <button class="bttn bttn-dis group mb-12">
+            Button
+            <svg
+              width="10"
+              height="10"
+              viewBox="0 0 10 10"
+              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+              class="ml-2"
+            >
+              <path d="M0 5H10" stroke="currentColor" stroke-width="1.5" />
+              <path d="M5 10L5 2.38419e-07" stroke="currentColor" stroke-width="1.5" />
+            </svg>
+          </button>
+          <button class="bttn bttn-black group">
+            Button
+            <svg
+              width="10"
+              height="10"
+              viewBox="0 0 10 10"
+              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+              class="ml-2"
+            >
+              <path d="M0 5H10" stroke="currentColor" stroke-width="1.5" />
+              <path d="M5 10L5 2.38419e-07" stroke="currentColor" stroke-width="1.5" />
+            </svg>
+          </button>
+        </div>
+        <div>
+          <p class="text-light mb-14">Text link</p>
+          <a href="#" class="link-red block mb-12">Button</a>
+          <a href="#" class="link-dis block mb-12">Button</a>
+          <a href="#" class="link-black block mb-12">Button</a>
+        </div>
+        <div>
+          <p class="text-light mb-14">Text link + icon</p>
+          <a href="#" class="linkon linkon-red mb-12">
+            Button
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path d="M7 12H17" stroke="currentColor" stroke-width="1.5" />
+              <path d="M12 17L12 7" stroke="currentColor" stroke-width="1.5" />
+            </svg>
+          </a>
+          <a href="#" class="linkon linkon-dis mb-12">
+            Button
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path d="M7 12H17" stroke="currentColor" stroke-width="1.5" />
+              <path d="M12 17L12 7" stroke="currentColor" stroke-width="1.5" />
+            </svg>
+          </a>
+          <a href="#" class="linkon linkon-black">
+            Button
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path d="M7 12H17" stroke="currentColor" stroke-width="1.5" />
+              <path d="M12 17L12 7" stroke="currentColor" stroke-width="1.5" />
+            </svg>
+          </a>
+        </div>
+        <div>
+          <p class="text-light mb-14">Icon</p>
+          <button class="roundcon roundcon-red mr-6 sm:mr-0 mb-12 flex">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path d="M7 12H17" stroke="currentColor" stroke-width="1.5" />
+              <path d="M12 17L12 7" stroke="currentColor" stroke-width="1.5" />
+            </svg>
+          </button>
+          <button class="roundcon roundcon-dis mr-6 sm:mr-0 mb-12 flex">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path d="M7 12H17" stroke="currentColor" stroke-width="1.5" />
+              <path d="M12 17L12 7" stroke="currentColor" stroke-width="1.5" />
+            </svg>
+          </button>
+          <button class="roundcon roundcon-black mr-6 sm:mr-0 flex">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path d="M7 12H17" stroke="currentColor" stroke-width="1.5" />
+              <path d="M12 17L12 7" stroke="currentColor" stroke-width="1.5" />
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div class="forms my-20">
+        <h5 class="border-b pb-4 border-silverGrey mb-8">Forms</h5>
+        <div class="mb-8">
+          <p class="text-light mb-2">
+            Text input : input + *-lg / *-md / *-sm ,
+            <span class="italic text-4xs">e.g: class='input input-lg'</span>
+          </p>
+        </div>
+        <div class="grid grid-cols-none sm:grid-cols-2 gap-8 mb-12">
+          <div class="mb-8">
+            <p class="text-light mb-12">Default Text Field, placeholder label</p>
+            <input type="text" placeholder="Large" class="input input-lg mb-9" />
+            <input type="text" placeholder="Default" class="input input-md mb-9" />
+            <input type="text" placeholder="Small" class="input input-sm mb-9" />
+          </div>
+          <div class="mb-8">
+            <p class="text-light mb-12">Error Text Field, placeholder label</p>
+            <input type="email" placeholder="Large" class="input input-lg invalid:border-red mb-9" required />
+            <input type="email" placeholder="Default" class="input input-md invalid:border-red mb-9" required />
+            <input type="email" placeholder="Small" class="input input-sm invalid:border-red" required />
+          </div>
+          <div>
+            <p class="text-light mb-12">Text field disabled</p>
+            <input
+              type="text"
+              placeholder="Large"
+              class="input input-lg disabled:bg-cream disabled:border-cream disabled:placeholder:text-darkCream mb-9"
+              disabled
+            />
+            <input
+              type="text"
+              placeholder="Default"
+              class="input input-md disabled:bg-cream disabled:border-cream disabled:placeholder:text-darkCream mb-9"
+              disabled
+            />
+            <input
+              type="text"
+              placeholder="Small"
+              class="input input-sm disabled:bg-cream disabled:border-cream disabled:placeholder:text-darkCream mb-9"
+              disabled
+            />
+          </div>
+          <div>
+            <p class="text-light mb-12">Text field + icon</p>
+            <form action="" class="relative mb-8">
+              <input type="email" placeholder="Default" class="input input-lg flex" />
+              <button class="absolute top-7 right-5">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="11" cy="11" r="7.25" stroke="#191919" stroke-width="1.5" />
+                  <path d="M21 21L16 16" stroke="#191919" stroke-width="1.5" />
+                </svg>
+              </button>
+            </form>
+            <form action="" class="relative mb-8">
+              <input type="email" placeholder="Default" class="input input-md flex" />
+              <button class="absolute top-5 right-4">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="11" cy="11" r="7.25" stroke="#191919" stroke-width="1.5" />
+                  <path d="M21 21L16 16" stroke="#191919" stroke-width="1.5" />
+                </svg>
+              </button>
+            </form>
+            <form action="" class="relative">
+              <input type="email" placeholder="Small" class="input input-sm flex" />
+              <button class="absolute top-4 right-3">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="11" cy="11" r="7.25" stroke="#191919" stroke-width="1.5" />
+                  <path d="M21 21L16 16" stroke="#191919" stroke-width="1.5" />
+                </svg>
+              </button>
+            </form>
+          </div>
+          <div>
+            <p class="text-light mb-12">Default Select</p>
+            <div class="mb-8">
+              <p class="text-light mb-2">
+                Select input : input + *select-lg / *select-md / *select-sm ,
+                <span class="italic text-4xs">e.g: class='input input-select-lg'</span>
+              </p>
+            </div>
+            <div class="relative mb-8">
+              <select class="appearance-none cursor-pointer input input-select-lg">
+                <option selected>Open this select menu</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+              <svg
+                width="9"
+                height="5"
+                class="absolute top-9 right-5"
+                viewBox="0 0 9 5"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M0 0H9L4.5 5L0 0Z" fill="black" />
+              </svg>
+            </div>
+            <div class="relative mb-8">
+              <select class="appearance-none cursor-pointer input input-select-md">
+                <option selected>Open this select menu</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+              <svg
+                width="9"
+                height="5"
+                class="absolute top-7 right-4"
+                viewBox="0 0 9 5"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M0 0H9L4.5 5L0 0Z" fill="black" />
+              </svg>
+            </div>
+            <div class="relative">
+              <select class="appearance-none cursor-pointer input input-select-sm">
+                <option selected>Open this select menu</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+              <svg
+                width="7"
+                height="4"
+                viewBox="0 0 7 4"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                class="absolute top-5 right-3"
+              >
+                <path d="M0 0H7L3.5 3.5L0 0Z" fill="black" />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="block grid-cols-none sm:grid sm:grid-cols-2">
+          <div class="mb-8 col-span-2">
+            <p class="text-light">
+              Input checkbox + radio :
+              <span class="italic text-4xs">* copy elements *</span>
+            </p>
+          </div>
+          <div class="flex flex-wrap">
+            <div class="text-light basis-full mb-10">Check</div>
+            <div class="basis-1/2">
+              <div class="flex items-center mr-4 mb-4">
+                <input
+                  type="checkbox"
+                  id="cb1"
+                  name="cb1"
+                  value="yes"
+                  class="opacity-0 absolute h-8 w-8 peer cursor-pointer"
+                />
+                <div class="input-checkbox"></div>
+                <label for="cb1" class="select-none text-para cursor-pointer">Check</label>
+              </div>
+              <div class="flex items-center mr-4 mb-4">
+                <input
+                  type="checkbox"
+                  id="cb2"
+                  name="cb2"
+                  value="yes"
+                  class="opacity-0 absolute h-8 w-8 peer cursor-pointer"
+                />
+                <div class="input-checkbox"></div>
+                <label for="cb2" class="select-none text-para cursor-pointer">Over</label>
+              </div>
+              <div class="flex items-center mr-4">
+                <input
+                  type="checkbox"
+                  id="cb3"
+                  name="cb3"
+                  value="yes"
+                  class="opacity-0 absolute h-8 w-8 peer cursor-pointer"
+                  checked
+                />
+                <div class="input-checkbox"></div>
+                <label for="cb3" class="select-none text-para cursor-pointer">Checked</label>
+              </div>
+            </div>
+            <div class="basis-1/2">
+              <div class="flex items-center mr-4 mb-5">
+                <input
+                  type="checkbox"
+                  id="scb1"
+                  name="scb1"
+                  value="yes"
+                  class="opacity-0 absolute h-6 w-6 peer cursor-pointer"
+                />
+                <div class="input-checkbox-sm"></div>
+                <label for="scb1" class="select-none text-para cursor-pointer">Small Check</label>
+              </div>
+              <div class="flex items-center mr-4 mb-5">
+                <input
+                  type="checkbox"
+                  id="scb2"
+                  name="scb2"
+                  value="yes"
+                  class="opacity-0 absolute h-6 w-6 peer cursor-pointer"
+                />
+                <div class="input-checkbox-sm"></div>
+                <label for="scb2" class="select-none text-para cursor-pointer">Small Over</label>
+              </div>
+              <div class="flex items-center mr-4">
+                <input
+                  type="checkbox"
+                  id="scb3"
+                  name="scb3"
+                  value="yes"
+                  class="opacity-0 absolute h-6 w-6 peer cursor-pointer"
+                  checked
+                />
+                <div class="input-checkbox-sm"></div>
+                <label for="scb3" class="select-none text-para cursor-pointer">Small checked</label>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-wrap">
+            <div class="text-light basis-full mb-10">Radio</div>
+            <div class="basis-1/2">
+              <div class="flex items-center mr-4 mb-4">
+                <input
+                  type="radio"
+                  id="rd1"
+                  name="rd"
+                  value="yes"
+                  class="opacity-0 absolute h-8 w-8 peer cursor-pointer"
+                />
+                <div class="input-radiobox"></div>
+                <label for="rd1" class="select-none text-para cursor-pointer">Checked</label>
+              </div>
+              <div class="flex items-center mr-4 mb-4">
+                <input
+                  type="radio"
+                  id="rd2"
+                  name="rd"
+                  value="yes"
+                  class="opacity-0 absolute h-8 w-8 peer cursor-pointer"
+                />
+                <div class="input-radiobox"></div>
+                <label for="rd2" class="select-none text-para cursor-pointer">Over</label>
+              </div>
+              <div class="flex items-center mr-4">
+                <input
+                  type="radio"
+                  id="rd3"
+                  name="rd"
+                  value="yes"
+                  class="opacity-0 absolute h-8 w-8 peer cursor-pointer"
+                  checked
+                />
+                <div class="input-radiobox"></div>
+                <label for="rd3" class="select-none text-para cursor-pointer">Checked</label>
+              </div>
+            </div>
+            <div class="basis-1/2">
+              <div class="flex items-center mr-4 mb-5">
+                <input
+                  type="radio"
+                  id="srd1"
+                  name="srd"
+                  value="yes"
+                  class="opacity-0 absolute h-8 w-8 peer cursor-pointer"
+                />
+                <div class="input-radiobox-sm"></div>
+                <label for="srd1" class="select-none text-para cursor-pointer">Checked</label>
+              </div>
+              <div class="flex items-center mr-4 mb-5">
+                <input
+                  type="radio"
+                  id="srd2"
+                  name="srd"
+                  value="yes"
+                  class="opacity-0 absolute h-8 w-8 peer cursor-pointer"
+                />
+                <div class="input-radiobox-sm"></div>
+                <label for="srd2" class="select-none text-para cursor-pointer">Over</label>
+              </div>
+              <div class="flex items-center mr-4">
+                <input
+                  type="radio"
+                  id="srd3"
+                  name="srd"
+                  value="yes"
+                  class="opacity-0 absolute h-8 w-8 peer cursor-pointer"
+                  checked
+                />
+                <div class="input-radiobox-sm"></div>
+                <label for="srd3" class="select-none text-para cursor-pointer">Checked</label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mt-12">
+          <p class="text-light mb-8">
+            Text Field, label, placeholder, helping text :
+            <span class="italic text-4xs">* copy elements *</span>
+          </p>
+          <div class="grid grid-cols-none sm:grid-cols-2 gap-8">
+            <form action="">
+              <label for="ip1" class="text-[18px] leading-6 block mb-3">Password</label>
+              <input id="ip1" type="password" placeholder="Enter your password" class="input input-lg" required />
+              <p class="text-4xs tracking-wide mt-2">
+                Your password must be 8-20 characters long, must not contain spaces, special characters, or emoji.
+              </p>
+            </form>
+            <form action="">
+              <label for="ip1" class="text-[18px] leading-6 block mb-3">Password</label>
+              <input
+                id="ip1"
+                type="mail"
+                placeholder="Enter your password"
+                class="input input-lg peer invalid:border-red"
+                required
+              />
+              <p class="text-4xs tracking-wide mt-2 peer-invalid:text-red">
+                Your password must be 8-20 characters long, must not contain spaces, special characters, or emoji.
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="Navigation">
+        <h5 class="border-b pb-4 border-silverGrey mb-8">Navigation</h5>
+        <nav class="mt-20 mb-32 flex flex-col sm:block">
+          <a href="#" class="mr-8">Lösungen & Produkte</a>
+          <a href="#" class="mr-8">Digitale Service</a>
+          <a href="#" class="mr-8">Support & Wissen</a>
+          <a href="#" class="mr-8">Unternehmen</a>
+          <a href="#" class="">Kontakt</a>
+        </nav>
+        <div class="mb-32 flex flex-wrap items-center">
+          <a href="#" class="text-3xs text-darkGrey mr-6">Produktkatalog</a>
+          <a href="#" class="text-3xs text-darkGrey mr-6">Kontaktieren Sie uns</a>
+          <div class="inline-flex items-center">
+            <a href="#"><img src="img/searchnav.svg" alt="search" class="mr-1" /></a>
+            <a href="#"><img src="img/glove.svg" alt="world" class="mr-1" /></a>
+            <a href="#"><img src="img/user.svg" alt="user" /></a>
+          </div>
+        </div>
+        <div class="mb-32 border-b border-silverGrey pb-4">
+          <a href="#" class="inline-flex items-center mr-8"
+            ><span class="inline-block w-2 h-2 rounded-full bg-red mr-2"></span> Active</a
+          >
+          <a href="#" class="inline-flex items-center mr-8 group"
+            ><span class="inline-block w-2 h-2 rounded-full bg-cream mr-2 group-active:bg-red"></span> Mission</a
+          >
+          <a href="#" class="inline-flex items-center mr-8"
+            ><span class="inline-block w-2 h-2 rounded-full bg-cream mr-2"></span> Solutions</a
+          >
+          <a href="#" class="inline-flex items-center mr-8"
+            ><span class="inline-block w-2 h-2 rounded-full bg-cream mr-2"></span> K2 training</a
+          >
+          <a href="#" class="inline-flex items-center"
+            ><span class="inline-block w-2 h-2 rounded-full bg-cream mr-2"></span> Team</a
+          >
+        </div>
+        <div class="mb-32 flex flex-col sm:flex-row items-start sm:items-center w-full">
+          <button class="flex-1 border-b border-silverGrey pb-4 focus:border-red focus:text-red">Tab active</button>
+          <button class="flex-1 border-b border-silverGrey pb-4 focus:border-red focus:text-red">Ziegel</button>
+          <button class="flex-1 border-b border-silverGrey pb-4 focus:border-red focus:text-red">
+            Wellfaserzement
+          </button>
+          <button class="flex-1 border-b border-silverGrey pb-4 focus:border-red focus:text-red">Trapezblech</button>
+          <button class="flex-1 border-b border-silverGrey pb-4 focus:border-red focus:text-red">Flachdächer</button>
+        </div>
+        <div class="flex flex-wrap items-center">
+          <a href="#" class="text-3xs text-darkGrey">News</a>
+          <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg" class="mx-4">
+            <path d="M1 1L5 5L1 9" stroke="#585F69" stroke-linejoin="round" />
+          </svg>
+
+          <a href="#" class="text-3xs text-darkGrey">Special projects and references</a>
+          <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg" class="mx-4">
+            <path d="M1 1L5 5L1 9" stroke="#585F69" stroke-linejoin="round" />
+          </svg>
+
+          <a href="#" class="text-3xs text-darkGrey">Title</a>
+        </div>
+      </div>
+      <div class="icons">
+        <h3 class="border-b border-silverGrey mb-4">Icons</h3>
+        <h5 class="border-b border-silverGrey pb-4">24×24</h5>
+        <div class="grid grid-cols-1 sm:grid-cols-2 mb-24">
+          <div>
+            <p class="text-light my-8">
+              Slim <br />
+              1px stroke
+            </p>
+            <ul class="flex items-center">
+              <li class="mr-14">
+                <span class="icon icon-search-slim-24 h-6 w-6"></span>
+              </li>
+              <li class="mr-14">
+                <span class="icon icon-world-slim-24 h-6 w-6"></span>
+              </li>
+              <li class="mr-14">
+                <span class="icon icon-user-slim-24 h-6 w-6"></span>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <p class="text-light my-8">
+              Default <br />
+              1.5px stroke
+            </p>
+            <ul class="flex flex-wrap items-center">
+              <li class="mr-14 mb-4 sm:mb-0">
+                <span class="icon icon-arrow-right-24 h-6 w-6"></span>
+              </li>
+              <li class="mr-14 mb-4 sm:mb-0">
+                <span class="icon icon-arrow-right-24 rotate-90 h-6 w-6"></span>
+              </li>
+              <li class="mr-14 mb-4 sm:mb-0">
+                <span class="icon icon-arrow-right-24 rotate-180 h-6 w-6"></span>
+              </li>
+              <li class="mr-14 mb-4 sm:mb-0">
+                <span class="icon icon-arrow-right-24 -rotate-90 h-6 w-6"></span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <h5 class="border-b border-silverGrey pb-4">48x48</h5>
+        <ul class="flex items-center mt-8 mb-24">
+          <li class="mr-14">
+            <span class="icon icon-world-48 h-12 w-12"></span>
+
+            <p class="text-light mt-7">World</p>
+          </li>
+          <li class="mr-14">
+            <span class="icon icon-power-48 h-12 w-12"></span>
+
+            <p class="text-light mt-7">Power</p>
+          </li>
+        </ul>
+        <h5 class="border-b border-silverGrey pb-6">64x64</h5>
+        <ul class="grid grid-cols-2 gap-3 sm:flex items-center mt-10 mb-24">
+          <li class="mr-0 mb-12 sm:mr-20">
+            <span class="icon icon-layers-64 h-16 w-16"></span>
+
+            <p class="text-light mt-7">layers</p>
+          </li>
+          <li class="mr-0 mb-12 sm:mr-20">
+            <span class="icon icon-turnoff-64 h-16 w-16"></span>
+
+            <p class="text-light mt-7">Turn off</p>
+          </li>
+          <li class="mr-0 mb-12 sm:mr-20">
+            <span class="icon icon-secured-64 h-16 w-16"></span>
+
+            <p class="text-light mt-7">Secured</p>
+          </li>
+          <li class="mr-0 mb-12 sm:mr-20">
+            <span class="icon icon-power-64 h-16 w-16"></span>
+
+            <p class="text-light mt-7">Power</p>
+          </li>
+          <li class="mr-0 mb-12 sm:mr-20">
+            <span class="icon icon-cables-64 h-16 w-16"></span>
+
+            <p class="text-light mt-7">Cabels</p>
+          </li>
+          <li class="mr-0 mb-12 sm:mr-20">
+            <span class="icon icon-green-64 h-16 w-16"></span>
+
+            <p class="text-light mt-7">Green</p>
+          </li>
+          <li class="mr-0 mb-12 sm:mr-20">
+            <span class="icon icon-connected-64 h-16 w-16"></span>
+
+            <p class="text-light mt-7">Connected</p>
+          </li>
+          <li class="mr-0 mb-12 sm:mr-20">
+            <span class="icon icon-happy-64 h-16 w-16"></span>
+
+            <p class="text-light mt-7">Happy</p>
+          </li>
+          <li class="mr-0 mb-12 sm:mr-20">
+            <span class="icon icon-droplets-64 h-16 w-16"></span>
+
+            <p class="text-light mt-7">Droplets</p>
+          </li>
+          <li class="mr-0 mb-12 sm:mr-20">
+            <span class="icon icon-world-64 h-16 w-16"></span>
+
+            <p class="text-light mt-7">World</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <script type="module" src="/icons.js"></script>
   </body>
 </html>
