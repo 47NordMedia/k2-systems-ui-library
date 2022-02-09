@@ -26,14 +26,21 @@ function initIcons() {
 
   Array.from(span).forEach((el) => {
     const match = el.className.match(/icon-(\w|-){1,}/);
+    const svgClasses = el.className;
 
     if (match && match.length > 0) {
       const icon = match[0].split('icon-')[1];
       const iconData = icons[icon];
+      const svg = svgClasses ? iconData.svg.replace('<svg ', `,<svg class="${svgClasses}" `) : iconData.svg;
 
-      if (iconData) {
-        el.innerHTML = '';
-        el.innerHTML = iconData.svg;
+      if (iconData && el.parentNode !== null) {
+        const placeholder = document.createElement('div');
+        placeholder.innerHTML = svg;
+        const node = placeholder.firstElementChild;
+
+        if (node !== null) {
+          el.parentNode.replaceChild(node, el);
+        }
       }
     }
   });
