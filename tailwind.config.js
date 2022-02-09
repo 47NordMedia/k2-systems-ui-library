@@ -94,7 +94,8 @@ module.exports = {
         // for small laptop to semi large desktop ------>
         'lp-md': ['42px', '52px'],
         'lp-lg': ['56px', '68px'],
-        'lp-xl': ['96px', '96px'],
+        'lp-xl': ['88px', '88px'],
+        'lp-2xl': ['96px', '96px'],
         // for phone to tablet ------>
         'mb-xxs': ['16px', '24px'],
         'mb-xs': ['18px', '24px'],
