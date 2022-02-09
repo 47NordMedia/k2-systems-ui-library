@@ -40,11 +40,15 @@ Add the custom classes to your existing css files.
 
 ```css
 @import "tailwindcss/base";
+@import "@47nordmedia/k2-systems-ui-library/dist/customBase.css";
 
 @import "tailwindcss/components";
+@import "@47nordmedia/k2-systems-ui-library/dist/customComponents.css";
 @import '@47nordmedia/k2-systems-ui-library/dist/main.css';
 
 @import "tailwindcss/utilities";
+@import "@47nordmedia/k2-systems-ui-library/dist/customUtilities.css";
+
 ```
 
 ## Usage
