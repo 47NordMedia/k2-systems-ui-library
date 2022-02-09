@@ -49,6 +49,10 @@ Add the custom classes to your existing css files.
 
 ## Usage
 
+## Styleguide
+
+use `npx serve dist -l 8081` to see the styleguide in the browser.
+
 ### Icon Library
 
 [ICON LIBRARY](./ICONS.md)

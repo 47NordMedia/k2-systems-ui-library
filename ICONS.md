@@ -2,7 +2,7 @@
 
 ## Available Icons
 
-- `secured-64`
+[HERE](./src/icons.ts)
 
 ## Setup
 
@@ -31,8 +31,16 @@ console.log(icons.icons)
 
 Use a `span` element with the classes `icon icon-<iconname>` to add a SVG icon (handled by javascript)
 
+The `span` element will get replaced with the `svg` element and inherit the classes from the initial `span`.
+
 e.g.:
 
 ```html
-<span class="icon icon-secured-64"></span>
+<span class="icon icon-secured-64 h-16 w-16"></span>
+```
+
+will be replaced with
+
+```html
+<svg class="icon icon-secured-64 h-16 w-16" ....
 ```
