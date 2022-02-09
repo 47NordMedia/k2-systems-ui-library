@@ -31,9 +31,9 @@ function initIcons() {
     if (match && match.length > 0) {
       const icon = match[0].split('icon-')[1];
       const iconData = icons[icon];
-      const svg = svgClasses ? iconData.svg.replace('<svg ', `,<svg class="${svgClasses}" `) : iconData.svg;
 
       if (iconData && el.parentNode !== null) {
+        const svg = svgClasses ? iconData.svg.replace('<svg ', `,<svg class="${svgClasses}" `) : iconData.svg;
         const placeholder = document.createElement('div');
         placeholder.innerHTML = svg;
         const node = placeholder.firstElementChild;
