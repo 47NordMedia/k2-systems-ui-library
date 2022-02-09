@@ -6,13 +6,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon",
-    "build:production": "rimraf dist && tsc --project tsconfig.builder.json && npm run build:webpack && copyfiles -f ./tailwind.config.js ./dist/ && npm run copyicons && npm run copyhtml && npm run build:css",
+    "build:production": "rimraf dist && tsc --project tsconfig.builder.json && npm run build:webpack && copyfiles -f ./tailwind.config.js ./dist/ && npm run copy:icons && npm run copy:html && npm run build:css",
     "build:tailwind": "npx tailwindcss -i ./dist/main.css -o ./dist/tailwind-compiled.css -c ./tailwind.build.config.js",
     "build:css": "ts-node --project tsconfig.builder.json ./src/builder/index.ts --s",
     "build:js": "ts-node --project tsconfig.builder.json ./src/builder/index.ts",
     "build:webpack": "webpack",
-    "copyicons": "copyfiles -f './src/icons/*.svg' ./dist/icons/",
-    "copyhtml": "copyfiles -f './src/index.html' ./dist/"
+    "copy:icons": "copyfiles -f './src/icons/*.svg' ./dist/icons/",
+    "copy:html": "copyfiles -f './src/index.html' ./dist/"
   },
   "repository": {
     "type": "git",
