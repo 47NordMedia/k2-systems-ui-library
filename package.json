@@ -6,13 +6,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon",
-    "build:production": "rimraf dist && tsc --project tsconfig.builder.json && npm run build:webpack && copyfiles -f ./tailwind.config.js ./dist/ && npm run copy:icons && npm run copy:html && npm run build:css && npm run build:devcss",
+    "build:production": "rimraf dist && tsc --project tsconfig.builder.json && npm run build:webpack && copyfiles -f ./tailwind.config.js ./dist/ && npm run copy:assets && npm run build:css && npm run build:devcss",
     "build:devcss": "postcss ./src/input.css -o ./dist/output.css",
     "build:css": "ts-node --project tsconfig.builder.json ./src/builder/index.ts --s",
     "build:js": "ts-node --project tsconfig.builder.json ./src/builder/index.ts",
     "build:webpack": "webpack",
     "copy:icons": "copyfiles -f './src/icons/*.svg' ./dist/icons/",
-    "copy:html": "copyfiles -f './src/index.html' ./dist/"
+    "copy:html": "copyfiles -f './src/index.html' ./dist/",
+    "copy:fonts": "copyfiles -f './src/assets/font/*' ./dist/assets/font/",
+    "copy:customCss": "copyfiles -f './src/customBase.css' './src/customComponents.css' './src/customUtilities.css' ./dist/",
+    "copy:assets": "npm run copy:icons && npm run copy:html && npm run copy:fonts"
   },
   "repository": {
     "type": "git",
@@ -50,6 +53,8 @@
     "postcss-import": "^14.0.2",
     "prettier": "^2.5.1",
     "rimraf": "^3.0.2",
+    "stylelint": "^14.4.0",
+    "stylelint-config-standard": "^25.0.0",
     "svg-inline-loader": "^0.8.2",
     "ts-loader": "^9.2.6",
     "ts-node": "^10.4.0",
