@@ -21,7 +21,7 @@ module.exports = {
     extensions: ['.ts', '.js'],
   },
   output: {
-    filename: '[name].js',
+    filename: '[name]_compiled.js',
     path: path.resolve(__dirname, 'dist'),
   },
   optimization: {

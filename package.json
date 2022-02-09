@@ -6,14 +6,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon",
-    "build:production": "rimraf dist && tsc --project tsconfig.builder.json && npm run build:webpack && copyfiles -f ./tailwind.config.js ./dist/ && npm run copy:assets && npm run copy:customCss && npm run build:css && npm run build:devcss",
+    "build:production": "rimraf dist && tsc --project tsconfig.builder.json && npm run build:browserready && npm run build:iconlib && npm run copy:assets && npm run copy:customCss && npm run build:css && npm run build:devcss",
     "build:devcss": "postcss ./src/input.css -o ./dist/output.css",
     "build:css": "ts-node --project tsconfig.builder.json ./src/builder/index.ts --s",
     "build:js": "ts-node --project tsconfig.builder.json ./src/builder/index.ts",
-    "build:webpack": "webpack",
+    "build:iconlib": "tsc --project tsconfig.json",
+    "build:browserready": "webpack --config webpack.config.js",
     "copy:icons": "copyfiles -f './src/icons/*.svg' ./dist/icons/",
     "copy:html": "copyfiles -f './src/index.html' ./dist/",
     "copy:fonts": "copyfiles -f './src/assets/font/*' ./dist/assets/font/",
+    "copy:tailwindconfig": "copyfiles -f ./tailwind.config.js ./dist/",
     "copy:customCss": "copyfiles -f './src/customBase.css' './src/customComponents.css' './src/customUtilities.css' ./dist/",
     "copy:assets": "npm run copy:icons && npm run copy:html && npm run copy:fonts"
   },
