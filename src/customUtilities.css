@@ -1,0 +1,78 @@
+@layer utilities {
+  .bttn-red,
+  .roundcon-red {
+    @apply bg-red text-white hover:bg-black transition-all;
+  }
+
+  .bttn-dis,
+  .roundcon-dis {
+    @apply bg-cream text-darkCream;
+  }
+
+  .bttn-black,
+  .roundcon-black {
+    @apply bg-black text-white hover:bg-red  transition-all;
+  }
+
+  .link-red,
+  .linkon-red {
+    @apply text-[21px] leading-[24px] text-red hover:text-black;
+  }
+
+  .link-dis,
+  .linkon-dis {
+    @apply text-[21px] leading-[24px] text-darkCream;
+  }
+
+  .link-black,
+  .linkon-black {
+    @apply text-[21px] leading-[24px] text-black hover:text-red;
+  }
+
+  .input-lg {
+    @apply h-20 px-8 py-8 rounded-2xl text-[24px];
+  }
+
+  .input-md {
+    @apply h-16 px-6 py-5 rounded-xl text-[21px];
+  }
+
+  .input-sm {
+    @apply h-12 px-4 py-3 rounded-lg text-[18px];
+  }
+
+  .input-select-lg {
+    @apply h-20 px-4 py-4 rounded-2xl text-[24px];
+  }
+
+  .input-select-md {
+    @apply h-16 px-4 py-4 rounded-xl text-[21px];
+  }
+
+  .input-select-sm {
+    @apply h-12 px-3 py-2 rounded-lg text-[18px];
+  }
+
+  .bg-tick {
+    background-image: url("../img/tick.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 14px;
+  }
+
+  .bg-radio {
+    background-image: url("../img/radio.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 65%;
+  }
+
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+}

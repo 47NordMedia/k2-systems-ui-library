@@ -1,6 +1,7 @@
 @import "tailwindcss/base";
-
+@import "./customBase.css";
 @import "tailwindcss/components";
-@import '../dist/main.css';
-
+@import "./customComponents.css";
+@import "../dist/main.css";
 @import "tailwindcss/utilities";
+@import "./customUtilities.css";

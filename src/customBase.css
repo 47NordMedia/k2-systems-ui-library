@@ -1,0 +1,77 @@
+@layer base {
+  @font-face {
+    font-family: Halvar;
+    src:
+      url("/assets/font/HalvarMittel-Lt.woff2") format("woff2"),
+      url("/assets/font/HalvarMittel-Lt.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: Halvar;
+    src:
+      url("/assets/font/HalvarMittel-Rg.woff2") format("woff2"),
+      url("/assets/font/HalvarMittel-Rg.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: Halvar;
+    src:
+      url("/assets/font/HalvarMittel-Md.woff2") format("woff2"),
+      url("/assets/font/HalvarMittel-Md.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: Halvar;
+    src:
+      url("/assets/font/HalvarMittel-Bd.woff2") format("woff2"),
+      url("/assets/font/HalvarMittel-Bd.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  h1 {
+    @apply text-mb-xl xl:text-lp-xl 2xl:text-xl font-halvar font-bold;
+  }
+
+  h2 {
+    @apply text-mb-lg xl:text-lp-xl 2xl:text-lg font-halvar font-bold;
+  }
+
+  h3 {
+    @apply text-mb-md xl:text-lp-lg 2xl:text-md font-halvar font-medium;
+  }
+
+  h4 {
+    @apply text-mb-sm xl:text-lp-md 2xl:text-sm font-halvar font-medium;
+  }
+
+  h5 {
+    @apply text-xs font-halvar font-medium;
+  }
+
+  h6 {
+    @apply text-mb-xs xl:text-xxs font-halvar font-medium;
+  }
+
+  p,
+  a,
+  li,
+  label,
+  button {
+    @apply text-mb-xs xl:text-xxs font-halvar font-normal text-black;
+  }
+
+  label {
+    @apply text-xxs tracking-normal;
+  }
+}

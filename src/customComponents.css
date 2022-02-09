@@ -1,0 +1,42 @@
+/* stylelint-disable max-line-length */
+@layer components {
+  .text-light {
+    @apply text-darkGrey font-halvar font-light leading-6 text-[18px];
+  }
+
+  .text-label {
+    @apply text-[16px] font-halvar font-normal uppercase tracking-wider leading-8 text-darkGrey;
+  }
+
+  .bttn {
+    @apply px-5 py-2 rounded-full bg-red text-white leading-[24px] inline-flex items-center;
+  }
+
+  .linkon {
+    @apply leading-[24px] flex items-center;
+  }
+
+  .roundcon {
+    @apply w-[40px] h-[40px] rounded-full inline-flex justify-center items-center;
+  }
+
+  .input {
+    @apply w-full border border-silverGrey bg-transparent focus:outline-none focus:border-darkGrey placeholder:text-black focus:placeholder:text-opacity-20 font-halvar font-normal;
+  }
+
+  .input-checkbox {
+    @apply h-8 w-8 rounded-md border border-silverGrey cursor-pointer mr-2 peer-focus:border-darkGrey peer-checked:bg-tick;
+  }
+
+  .input-checkbox-sm {
+    @apply input-checkbox h-6 w-6 rounded-[4px];
+  }
+
+  .input-radiobox {
+    @apply input-checkbox rounded-full peer-checked:bg-radio;
+  }
+
+  .input-radiobox-sm {
+    @apply input-checkbox input-radiobox h-6 w-6;
+  }
+}
