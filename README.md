@@ -1,5 +1,7 @@
 # K2 Systems library
 
+[![Publish to NPM](https://github.com/47NordMedia/k2-systems-ui-library/actions/workflows/publish.yaml/badge.svg)](https://github.com/47NordMedia/k2-systems-ui-library/actions/workflows/publish.yaml)
+
 ## Description
 
 This library is used as a single source for UI elements throughout the K2 Systems' digital services.
