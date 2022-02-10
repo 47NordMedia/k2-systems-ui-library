@@ -28,6 +28,6 @@ jobs:
           rm -rf node_modules
           rm -rf dist
           echo PR #${{ github.event.number }} has been merged
-          echo Bumping version (patch)
+          echo "Bumping version (patch)"
           yarn version --patch
           git push
