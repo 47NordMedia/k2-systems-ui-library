@@ -35,4 +35,4 @@ jobs:
           echo PR #${{ github.event.number }} has been merged
           echo "Bumping version (patch)"
           yarn version --patch
-          git push
+          git push --follow-tags
