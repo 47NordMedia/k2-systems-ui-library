@@ -2,13 +2,16 @@ name: Bump Version on Close Pull Request
 
 # only trigger on pull request closed events
 on:
+  branches:
+    - main
   pull_request:
     types: [closed]
 
 jobs:
   merge_job:
     # this job will only run if the PR has been merged and is 'main' branch
-    if: github.event.pull_request.merged == true && github.ref == 'refs/heads/main'
+    # if: github.event.pull_request.merged == true && github.ref == 'refs/heads/main'
+    if: ${{ github.event.pull_request.merged }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Code
