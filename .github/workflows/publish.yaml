@@ -1,13 +1,14 @@
 name: Publish to NPM
 
 on:
-  - workflow_run:
-      workflows: ['Bump Version on Close Pull Request']
-      types:
-        - completed
-  - push:
-      tags:
-        - '**'
+  workflow_run:
+    workflows: ['Bump Version on Close Pull Request']
+    types:
+      - completed
+
+  push:
+    tags:
+      - '**'
 jobs:
   build:
     runs-on: ubuntu-latest
