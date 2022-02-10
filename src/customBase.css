@@ -40,7 +40,7 @@
   }
 
   h1 {
-    @apply text-mb-xl xl:text-lp-xl 2xl:text-xl font-halvar font-bold;
+    @apply text-mb-xl xl:text-lp-2xl 2xl:text-xl font-halvar font-bold;
   }
 
   h2 {

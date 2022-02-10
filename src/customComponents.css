@@ -1,11 +1,11 @@
 /* stylelint-disable max-line-length */
 @layer components {
   .text-light {
-    @apply text-darkGrey font-halvar font-light leading-6 text-[18px];
+    @apply text-darkGrey font-halvar font-light leading-6 text-[1.125rem];
   }
 
   .text-label {
-    @apply text-[16px] font-halvar font-normal uppercase tracking-wider leading-8 text-darkGrey;
+    @apply text-[1rem] font-halvar font-normal uppercase tracking-wider leading-8 text-darkGrey;
   }
 
   .bttn {
@@ -13,11 +13,11 @@
   }
 
   .linkon {
-    @apply leading-[24px] flex items-center;
+    @apply leading-[1.5rem] flex items-center;
   }
 
   .roundcon {
-    @apply w-[40px] h-[40px] rounded-full inline-flex justify-center items-center;
+    @apply w-[2.5rem] h-[2.5rem] rounded-full inline-flex justify-center items-center;
   }
 
   .input {

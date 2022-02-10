@@ -16,41 +16,41 @@
 
   .link-red,
   .linkon-red {
-    @apply text-[21px] leading-[24px] text-red hover:text-black;
+    @apply text-[1.313rem] leading-[1.5rem] text-red hover:text-black;
   }
 
   .link-dis,
   .linkon-dis {
-    @apply text-[21px] leading-[24px] text-darkCream;
+    @apply text-[1.313rem] leading-[1.5rem] text-darkCream;
   }
 
   .link-black,
   .linkon-black {
-    @apply text-[21px] leading-[24px] text-black hover:text-red;
+    @apply text-[1.313rem] leading-[1.5rem] text-black hover:text-red;
   }
 
   .input-lg {
-    @apply h-20 px-8 py-8 rounded-2xl text-[24px];
+    @apply h-20 px-8 py-8 rounded-2xl text-[1.5rem];
   }
 
   .input-md {
-    @apply h-16 px-6 py-5 rounded-xl text-[21px];
+    @apply h-16 px-6 py-5 rounded-xl text-[1.313rem];
   }
 
   .input-sm {
-    @apply h-12 px-4 py-3 rounded-lg text-[18px];
+    @apply h-12 px-4 py-3 rounded-lg text-[1.125];
   }
 
   .input-select-lg {
-    @apply h-20 px-4 py-4 rounded-2xl text-[24px];
+    @apply h-20 px-4 py-4 rounded-2xl text-[1.5rem];
   }
 
   .input-select-md {
-    @apply h-16 px-4 py-4 rounded-xl text-[21px];
+    @apply h-16 px-4 py-4 rounded-xl text-[1.313rem];
   }
 
   .input-select-sm {
-    @apply h-12 px-3 py-2 rounded-lg text-[18px];
+    @apply h-12 px-3 py-2 rounded-lg text-[1.125];
   }
 
   .bg-tick {
