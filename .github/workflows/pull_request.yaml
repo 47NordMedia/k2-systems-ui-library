@@ -1,4 +1,4 @@
-name: Close Pull Request
+name: Bump Version on Close Pull Request
 
 # only trigger on pull request closed events
 on:
