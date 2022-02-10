@@ -41,74 +41,74 @@ module.exports = {
       },
       fontSize: {
         xxs: [
-          '21px',
+          '1.313rem',
           {
             letterSpacing: '-0.015em',
-            lineHeight: '32px',
+            lineHeight: '2rem',
           },
         ],
         xs: [
-          '36px',
+          '2.25rem',
           {
             letterSpacing: '-0.025em',
-            lineHeight: '48px',
+            lineHeight: '3rem',
           },
         ],
         sm: [
-          '48px',
+          '3rem',
           {
             letterSpacing: '-0.025em',
-            lineHeight: '56px',
+            lineHeight: '3.5rem',
           },
         ],
         md: [
-          '72px',
+          '4.5rem',
           {
             letterSpacing: '-0.025em',
-            lineHeight: '88px',
+            lineHeight: '5.5rem',
           },
         ],
         lg: [
-          '112px',
+          '7rem',
           {
             letterSpacing: '-0.025em',
-            lineHeight: '112px',
+            lineHeight: '7rem',
           },
         ],
         xl: [
-          '144px',
+          '9rem',
           {
             letterSpacing: '-0.025em',
-            lineHeight: '136px',
+            lineHeight: '8.5rem',
           },
         ],
         '3xs': [
-          '16px',
+          '1rem',
           {
             letterSpacing: '0.005em',
-            lineHeight: '24px',
+            lineHeight: '1.5rem',
           },
         ],
-        '4xs': ['13px', '24px'],
-        '0xs': ['0px', '0px'],
+        '4xs': ['0.813rem', '1.5rem'],
+        '0xs': ['0rem', '0rem'],
         // for small laptop to semi large desktop ------>
-        'lp-md': ['42px', '52px'],
-        'lp-lg': ['56px', '68px'],
-        'lp-xl': ['88px', '88px'],
-        'lp-2xl': ['96px', '96px'],
+        'lp-md': ['2.625', '3.25rem'],
+        'lp-lg': ['3.5rem', '4.25rem'],
+        'lp-xl': ['5.5rem', '5.5rem'],
+        'lp-2xl': ['6rem', '6rem'],
         // for phone to tablet ------>
-        'mb-xxs': ['16px', '24px'],
-        'mb-xs': ['18px', '24px'],
-        'mb-sm': ['24px', '32px'],
+        'mb-xxs': ['1rem', '1.5rem'],
+        'mb-xs': ['1.125rem', '1.5rem'],
+        'mb-sm': ['1.5rem', '2rem'],
         'mb-md': [
-          '36px',
+          '2.25rem',
           {
             letterSpacing: '-0.015em',
-            lineHeight: '48px',
+            lineHeight: '3rem',
           },
         ],
-        'mb-lg': ['48px', '56px'],
-        'mb-xl': ['64px', '64px'],
+        'mb-lg': ['3rem', '3.5rem'],
+        'mb-xl': ['4rem', '4rem'],
       },
     },
   },
