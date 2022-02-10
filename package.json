@@ -17,7 +17,7 @@
     "copy:fonts": "copyfiles -f './src/assets/font/*' ./dist/assets/font/",
     "copy:tailwindconfig": "copyfiles -f ./tailwind.config.js ./dist/",
     "copy:customCss": "copyfiles -f './src/customBase.css' './src/customComponents.css' './src/customUtilities.css' ./dist/",
-    "copy:assets": "npm run copy:icons && npm run copy:html && npm run copy:fonts"
+    "copy:assets": "npm run copy:icons && npm run copy:html && npm run copy:fonts && npm run copy:tailwindconfig"
   },
   "repository": {
     "type": "git",
