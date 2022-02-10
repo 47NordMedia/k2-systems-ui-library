@@ -30,7 +30,7 @@ Add the config file of the ui-library to your `tailwind.config.js`
 module.exports = {
   presets: [require('@47nordmedia/k2-systems-ui-library/dist/tailwind.config.js')],
   // config specific to this project would go here
-  // ....
+  // ...
 };
 ```
 
