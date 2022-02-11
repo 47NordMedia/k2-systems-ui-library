@@ -40,75 +40,119 @@ module.exports = {
         purpleAccent: '#BF22B0',
       },
       fontSize: {
-        xxs: [
-          '1.313rem',
-          {
-            letterSpacing: '-0.015em',
-            lineHeight: '2rem',
-          },
+        '0xs': ['0rem', '0rem'],
+        '2xs': [
+          '0.813rem',
+           {
+            letterSpacing: '0.13rem',
+            lineHeight: '1.5rem',
+          }
         ],
-        xs: [
-          '2.25rem',
-          {
-            letterSpacing: '-0.025em',
-            lineHeight: '3rem',
-          },
-        ],
-        sm: [
-          '3rem',
-          {
-            letterSpacing: '-0.025em',
-            lineHeight: '3.5rem',
-          },
-        ],
-        md: [
-          '4.5rem',
-          {
-            letterSpacing: '-0.025em',
-            lineHeight: '5.5rem',
-          },
-        ],
-        lg: [
-          '7rem',
-          {
-            letterSpacing: '-0.025em',
-            lineHeight: '7rem',
-          },
-        ],
-        xl: [
-          '9rem',
-          {
-            letterSpacing: '-0.025em',
-            lineHeight: '8.5rem',
-          },
-        ],
-        '3xs': [
+        'xs': [
           '1rem',
           {
             letterSpacing: '0.005em',
             lineHeight: '1.5rem',
           },
         ],
-        '4xs': ['0.813rem', '1.5rem'],
-        '0xs': ['0rem', '0rem'],
-        // for small laptop to semi large desktop ------>
-        'lp-md': ['2.625', '3.25rem'],
-        'lp-lg': ['3.5rem', '4.25rem'],
-        'lp-xl': ['5.5rem', '5.5rem'],
-        'lp-2xl': ['6rem', '6rem'],
-        // for phone to tablet ------>
-        'mb-xxs': ['1rem', '1.5rem'],
-        'mb-xs': ['1.125rem', '1.5rem'],
-        'mb-sm': ['1.5rem', '2rem'],
-        'mb-md': [
-          '2.25rem',
+        'sm': [
+          '1.125rem',
           {
             letterSpacing: '-0.015em',
+            lineHeight: '1.5rem',
+          },
+        ],
+        'base': [
+          '1.313rem',
+          {
+            letterSpacing: '-0.015em',
+            lineHeight: '2rem',
+          },
+        ],
+        "md": [
+          '1.5rem',
+          {
+            letterSpacing: '-0.025em',
+            lineHeight: '2rem',
+          },
+        ],
+        "lg": [
+          '1.875rem',
+          {
+            letterSpacing: '-0.025em',
+            lineHeight: '2.25rem',
+          },
+        ],
+        "xl": [
+          '2.5rem',
+          {
+            letterSpacing: '-0.025em',
             lineHeight: '3rem',
           },
         ],
-        'mb-lg': ['3rem', '3.5rem'],
-        'mb-xl': ['4rem', '4rem'],
+        "2xl": [
+          '2.625rem',
+          {
+            letterSpacing: '-0.025em',
+            lineHeight: '3.25rem',
+          },
+        ],
+        "3xl": [
+          '3rem',
+          {
+            letterSpacing: '-0.025em',
+            lineHeight: '3.5rem',
+          },
+        ],
+        "4xl": [
+          '3.5rem',
+          {
+            letterSpacing: '-0.025em',
+            lineHeight: '4.25rem',
+          },
+        ],
+        "5xl": [
+          '4rem',
+          {
+            letterSpacing: '-0.025em',
+            lineHeight: '4rem',
+          },
+        ],
+        "6xl": [
+          '4.5rem',
+          {
+            letterSpacing: '-0.025em',
+            lineHeight: '5.5rem',
+          },
+        ],
+        "7xl": [
+          '5.5rem',
+          {
+            letterSpacing: '-0.025em',
+            lineHeight: '5.5rem',
+          },
+        ],
+        "8xl": [
+          '6rem',
+          {
+            letterSpacing: '-0.025em',
+            lineHeight: '6rem',
+          },
+        ],
+        "9xl": [
+          '7rem',
+          {
+            letterSpacing: '-0.025em',
+            lineHeight: '7rem',
+          },
+        ],
+        "10xl": [
+          '9rem',
+          {
+            letterSpacing: '-0.025em',
+            lineHeight: '8.5rem',
+          },
+        ],
       },
     },
   },
