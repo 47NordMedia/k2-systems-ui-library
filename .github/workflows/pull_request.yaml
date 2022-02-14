@@ -36,4 +36,7 @@ jobs:
           echo "Bumping version (patch)"
           yarn version --patch
       - name: Push changes
-        run: git push https://${{ secrets.GH_PAT }}@github.com/${{ env.GITHUB_REPOSITORY }}.git --follow-tags
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
+        run: |
+          git push https://$GH_PAT@github.com/$GITHUB_REPOSITORY.git --follow-tags
