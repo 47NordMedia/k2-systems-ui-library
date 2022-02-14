@@ -1,5 +1,3 @@
-// const colors = require('tailwindcss/colors');
-
 /* eslint-env node */
 module.exports = {
   // @see https://tailwindcss.com/docs/upcoming-changes
