@@ -40,27 +40,27 @@
   }
 
   h1 {
-    @apply text-mb-xl xl:text-lp-2xl 2xl:text-xl font-halvar font-bold;
+    @apply text-5xl xl:text-8xl 2xl:text-10xl font-halvar font-bold;
   }
 
   h2 {
-    @apply text-mb-lg xl:text-lp-xl 2xl:text-lg font-halvar font-bold;
+    @apply text-3xl xl:text-7xl 2xl:text-9xl font-halvar font-bold;
   }
 
   h3 {
-    @apply text-mb-md xl:text-lp-lg 2xl:text-md font-halvar font-medium;
+    @apply text-md xl:text-4xl 2xl:text-6xl font-halvar font-medium;
   }
 
   h4 {
-    @apply text-mb-sm xl:text-lp-md 2xl:text-sm font-halvar font-medium;
+    @apply text-base xl:text-lg 2xl:text-xl font-halvar font-medium;
   }
 
   h5 {
-    @apply text-xs font-halvar font-medium;
+    @apply text-sm lg:text-base font-halvar font-medium;
   }
 
   h6 {
-    @apply text-mb-xs xl:text-xxs font-halvar font-medium;
+    @apply text-xs font-halvar font-medium;
   }
 
   p,
@@ -68,10 +68,12 @@
   li,
   label,
   button {
-    @apply text-mb-xs xl:text-xxs font-halvar font-normal text-black;
+    @apply text-sm xl:text-base font-halvar font-normal text-black;
   }
-
+  button, a{
+    @apply text-sm xl:text-base leading-[1.5rem];
+  }
   label {
-    @apply text-xxs tracking-normal;
+    @apply text-base tracking-normal;
   }
 }
