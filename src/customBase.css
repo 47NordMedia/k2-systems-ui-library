@@ -48,11 +48,11 @@
   }
 
   h3 {
-    @apply text-md xl:text-4xl 2xl:text-6xl font-halvar font-medium;
+    @apply text-xl xl:text-4xl 2xl:text-6xl font-halvar font-medium;
   }
 
   h4 {
-    @apply text-base xl:text-lg 2xl:text-xl font-halvar font-medium;
+    @apply text-md xl:text-lg 2xl:text-xl font-halvar font-medium;
   }
 
   h5 {
