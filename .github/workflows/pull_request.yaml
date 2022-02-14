@@ -25,8 +25,8 @@ jobs:
         run: yarn install && yarn run build:production
       - name: Bump Version
         run: |
-          git config --global user.name "florianporada"
-          git config --global user.email "florianporada@users.noreply.github.com"
+          git config --local user.name "florianporada"
+          git config --local user.email "florianporada@users.noreply.github.com"
 
           echo "Remove build related folders"
           rm -rf node_modules
@@ -35,4 +35,5 @@ jobs:
           echo PR #${{ github.event.number }} has been merged
           echo "Bumping version (patch)"
           yarn version --patch
-          git push --follow-tags
+      - name: Push changes
+        run: git push https://${{ secrets.GH_PAT }}@github.com/${{ env.GITHUB_REPOSITORY }}.git --follow-tags
