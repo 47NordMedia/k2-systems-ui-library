@@ -37,6 +37,6 @@ jobs:
           yarn version --patch
       - name: Push changes
         env:
-          GH_PAT: ${{ secrets.GH_PAT }}
+          GH_ACCESS_TOKEN: ${{ secrets.GH_PAT }}
         run: |
-          git push https://$GH_PAT@github.com/$GITHUB_REPOSITORY.git --follow-tags
+          git push https://${{ env.GH_ACCESS_TOKEN }}@github.com/$GITHUB_REPOSITORY.git --follow-tags
