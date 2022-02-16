@@ -52,7 +52,7 @@
   }
 
   h4 {
-    @apply text-md xl:text-lg 2xl:text-xl font-halvar font-medium;
+    @apply text-md xl:text-xl 2xl:text-3xl font-halvar font-medium;
   }
 
   h5 {
@@ -68,10 +68,10 @@
   li,
   label,
   button {
-    @apply text-sm xl:text-base font-halvar font-normal text-black;
+    @apply text-sm xl:text-base font-halvar font-normal;
   }
   button, a{
-    @apply text-sm xl:text-base leading-[1.5rem];
+    @apply text-sm xl:text-base leading-[1.5rem] text-black;
   }
   label {
     @apply text-base tracking-normal;
