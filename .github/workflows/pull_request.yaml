@@ -16,6 +16,8 @@ jobs:
     steps:
       - name: Checkout Code
         uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.GH_PAT }}
       - name: Setup Node
         uses: actions/setup-node@v2
         with:
@@ -23,10 +25,10 @@ jobs:
           cache: 'yarn'
       - name: Test Build
         run: yarn install && yarn run build:production
-      - name: Bump Version
+      - name: Bump version and push hanges
         run: |
-          git config --local user.name "florianporada"
-          git config --local user.email "florianporada@users.noreply.github.com"
+          git config --global user.name "florianporada"
+          git config --global user.email "florianporada@users.noreply.github.com"
 
           echo "Remove build related folders"
           rm -rf node_modules
@@ -35,8 +37,4 @@ jobs:
           echo PR #${{ github.event.number }} has been merged
           echo "Bumping version (patch)"
           yarn version --patch
-      - name: Push changes
-        env:
-          GH_ACCESS_TOKEN: ${{ secrets.GH_PAT }}
-        run: |
-          git push https://${{ env.GH_ACCESS_TOKEN }}@github.com/$GITHUB_REPOSITORY.git --follow-tags
+          git push --follow-tags
