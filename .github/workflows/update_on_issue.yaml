@@ -1,3 +1,5 @@
+name: Trigger action once issue is closed
+
 on:
   issue_comment:
     types: [closed]
