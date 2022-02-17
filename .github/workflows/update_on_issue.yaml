@@ -1,0 +1,14 @@
+on:
+  issue_comment:
+    types: [closed]
+jobs:
+  parse_content:
+    runs-on: ubuntu-latest
+    if: >-
+      github.event.state == 'error' ||
+      github.event.state == 'failure'
+    steps:
+      - name: print body
+        env:
+          BODY: ${{ github.event.comment.body }}
+        run: echo "$BODY"
