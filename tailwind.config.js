@@ -22,7 +22,7 @@ module.exports = {
         white: '#ffffff',
         darkGrey: '#585F69',
         silverGrey: '#A4ABB5',
-        lightGrey: '#CACED3',
+        lightGrey: '#C2C9D2',
         darkCream: '#ACA195',
         forestGreen: '#373A25',
         brown: '#4D1806',
