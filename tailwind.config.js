@@ -21,6 +21,7 @@ module.exports = {
         cream: '#F2EBE3',
         white: '#ffffff',
         darkGrey: '#585F69',
+        medGrey: '#858B95',
         silverGrey: '#A4ABB5',
         lightGrey: '#C2C9D2',
         darkCream: '#ACA195',
