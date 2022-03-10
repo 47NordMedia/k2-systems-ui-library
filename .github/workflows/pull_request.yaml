@@ -4,8 +4,7 @@ name: Bump Version on Close Pull Request
 on:
   workflow_dispatch:
   pull_request:
-    branches:
-      - main
+    branches: [main]
     types: [closed]
 
 jobs:
@@ -26,7 +25,7 @@ jobs:
           cache: 'yarn'
       - name: Test Build
         run: yarn install && yarn run build:production
-      - name: Bump version and push hanges
+      - name: Bump version and push changes
         run: |
           git config user.name "florianporada"
           git config user.email "florianporada@users.noreply.github.com"
