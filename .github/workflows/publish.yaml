@@ -1,10 +1,11 @@
 name: Publish to NPM
 
 on:
-  workflow_run:
-    workflows: ['Bump Version on Close Pull Request']
-    types:
-      - completed
+  # Not needed since the referenced workflow pushes a new version tag which triggers this workflow
+  # workflow_run:
+  #   workflows: ['Bump Version on Close Pull Request']
+  #   types:
+  #     - completed
 
   push:
     tags:
