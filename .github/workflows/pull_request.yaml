@@ -2,6 +2,7 @@ name: Bump Version on Close Pull Request
 
 # only trigger on pull request closed events
 on:
+  workflow_dispatch:
   pull_request:
     branches:
       - main
@@ -11,11 +12,11 @@ jobs:
   merge_job:
     # this job will only run if the PR has been merged and is 'main' branch
     # if: github.event.pull_request.merged == true && github.ref == 'refs/heads/main'
-    if: ${{ github.event.pull_request.merged }}
+    if: ${{ github.event.pull_request.merged || github.event_name == 'workflow_dispatch' }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           token: ${{ secrets.GH_PAT }}
       - name: Setup Node
@@ -27,8 +28,8 @@ jobs:
         run: yarn install && yarn run build:production
       - name: Bump version and push hanges
         run: |
-          git config --global user.name "florianporada"
-          git config --global user.email "florianporada@users.noreply.github.com"
+          git config user.name "florianporada"
+          git config user.email "florianporada@users.noreply.github.com"
 
           echo "Remove build related folders"
           rm -rf node_modules
