@@ -1,6 +1,6 @@
 {
   "name": "@47nordmedia/k2-systems-ui-library",
-  "version": "0.4.10",
+  "version": "0.4.11",
   "description": "K2 Systems UI library for web based projects",
   "main": "dist/index.js",
   "scripts": {
