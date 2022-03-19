@@ -5,7 +5,7 @@
   }
 
   .text-label {
-    @apply text-[1rem] font-halvar font-normal uppercase tracking-wider leading-8 text-darkGrey;
+    @apply text-[0.875rem] lg:text-[1rem] font-halvar font-normal uppercase tracking-wider leading-8 text-darkGrey;
   }
 
   .bttn {

@@ -43,7 +43,7 @@ module.exports = {
         '2xs': [
           '0.813rem',
            {
-            letterSpacing: '0.13rem',
+            letterSpacing: '0.005em',
             lineHeight: '1.5rem',
           }
         ],
