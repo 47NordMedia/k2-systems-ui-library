@@ -67,16 +67,16 @@ const icons: { [key: string]: { svg: string } } = {
   'world-64': { svg: require('./icons/world_64.svg') },
   'world-slim-24': { svg: require('./icons/world_slim_24.svg') },
   // Countries -----------
-  AU: { svg: require('./icons/australia.svg') },
-  BR: { svg: require('./icons/brazil.svg') },
-  FR: { svg: require('./icons/france.svg') },
-  DE: { svg: require('./icons/germany.svg') },
-  IT: { svg: require('./icons/italy.svg') },
-  MX: { svg: require('./icons/mexico.svg') },
-  SI: { svg: require('./icons/slovenia.svg') },
-  ZA: { svg: require('./icons/south-africa.svg') },
-  UK: { svg: require('./icons/united-kingdom.svg') },
-  US: { svg: require('./icons/United-states.svg') },
+  'flag-au': { svg: require('./icons/australia.svg') },
+  'flag-br': { svg: require('./icons/brazil.svg') },
+  'flag-fr': { svg: require('./icons/france.svg') },
+  'flag-de': { svg: require('./icons/germany.svg') },
+  'flag-it': { svg: require('./icons/italy.svg') },
+  'flag-mx': { svg: require('./icons/mexico.svg') },
+  'flag-si': { svg: require('./icons/slovenia.svg') },
+  'flag-za': { svg: require('./icons/south-africa.svg') },
+  'flag-uk': { svg: require('./icons/united-kingdom.svg') },
+  'flag-us': { svg: require('./icons/United-states.svg') },
 };
 
 function initIcons() {
