@@ -1,12 +1,12 @@
 {
   "name": "@47nordmedia/k2-systems-ui-library",
-  "version": "0.4.13",
+  "version": "0.4.14",
   "description": "K2 Systems UI library for web based projects",
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon",
-    "build:production": "rimraf dist && tsc --project tsconfig.builder.json && npm run build:browserready && npm run build:iconlib && npm run copy:assets && npm run copy:customCss && npm run build:css && npm run build:devcss",
+    "build:production": "rimraf dist && tsc --project tsconfig.builder.json  && npm run build:iconlib && npm run copy:assets && npm run build:browserready && npm run copy:customCss && npm run build:css && npm run build:devcss",
     "build:devcss": "postcss ./src/input.css -o ./dist/output.css",
     "build:css": "ts-node --project tsconfig.builder.json ./src/builder/index.ts --s",
     "build:js": "ts-node --project tsconfig.builder.json ./src/builder/index.ts",
@@ -42,10 +42,14 @@
     "yargs": "^17.3.1"
   },
   "devDependencies": {
+    "@babel/core": "^7.17.8",
+    "@babel/preset-env": "^7.16.11",
     "@types/node": "^17.0.10",
     "@types/yargs": "^17.0.8",
     "@typescript-eslint/eslint-plugin": "^5.10.0",
     "@typescript-eslint/parser": "^5.10.0",
+    "babel-loader": "^8.2.3",
+    "babel-polyfill": "^6.26.0",
     "copyfiles": "^2.4.1",
     "eslint": "^8.7.0",
     "eslint-config-prettier": "^8.3.0",
