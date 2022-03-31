@@ -76,7 +76,7 @@ const icons: { [key: string]: { svg: string } } = {
   'flag-si': { svg: require('./icons/slovenia.svg') },
   'flag-za': { svg: require('./icons/south-africa.svg') },
   'flag-uk': { svg: require('./icons/united-kingdom.svg') },
-  'flag-us': { svg: require('./icons/United-states.svg') },
+  'flag-us': { svg: require('./icons/united-states.svg') },
 };
 
 function initIcons() {
