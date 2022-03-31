@@ -25,6 +25,4 @@ function initIcons({ label }: IParams = { label: 'icon' }) {
   });
 }
 
-initIcons();
-
 export { icons, initIcons };
