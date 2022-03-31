@@ -12,6 +12,9 @@ import { initIcons, icons } from '@47nordmedia/k2-systems-ui-library/dist/icons'
 // init icon library
 initIcons();
 
+// init icon library with custom label
+initIcons({ label: 'k2-icon' })
+
 // list of all available icons
 console.log(icons)
 ```
@@ -55,10 +58,22 @@ e.g.:
 <span class="icon icon-secured-64 h-16 w-16"></span>
 ```
 
+Or with custom label:
+
+```html
+<span class="k2-icon icon-secured-64 h-16 w-16"></span>
+```
+
 will be replaced with
 
 ```html
 <svg class="icon icon-secured-64 h-16 w-16" ....
+```
+
+Or with custom label:
+
+```html
+<svg class="k2-icon icon-secured-64 h-16 w-16" ....
 ```
 
 

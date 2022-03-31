@@ -55,9 +55,9 @@ Add the custom classes to your existing css files.
 
 ## Usage
 
-## Styleguide
+## Style-Guide
 
-use `npx serve dist -l 8081` to see the styleguide in the browser.
+use `npx serve dist -l 8081` to see the style-guide in the browser.
 
 ### Icon Library
 
