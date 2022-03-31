@@ -1,6 +1,6 @@
 # K2 Systems library
 
-[![Publish to NPM](https://github.com/47NordMedia/k2-systems-ui-library/actions/workflows/publish.yaml/badge.svg)](https://github.com/47NordMedia/k2-systems-ui-library/actions/workflows/publish.yaml)
+[![Publish to NPM](https://github.com/47NordMedia/k2-systems-ui-library/actions/workflows/publish.yaml/badge.svg?branch=main)](https://github.com/47NordMedia/k2-systems-ui-library/actions/workflows/publish.yaml)
 
 ## Description
 
