@@ -9,6 +9,7 @@ const argv = yargs(process.argv.slice(2))
     c: { type: 'string', alias: 'classname' },
     l: { type: 'string', alias: 'classlist' },
     s: { type: 'boolean', alias: 'createstyle' },
+    i: { type: 'boolean', alias: 'listicons' },
   })
   .parseSync();
 
@@ -26,4 +27,15 @@ if (argv.s) {
   const classes = require('../index');
 
   createCssFile(classes.default);
+}
+
+if (argv.i) {
+  // eslint-disable-next-line @typescript-eslint/no-var-requires
+  const iconList = require('../iconList');
+
+  console.log(
+    Object.entries(iconList).map((iconKey) => {
+      console.log(iconKey);
+    })
+  );
 }

@@ -1,6 +1,6 @@
 # K2 Systems library
 
-[![Publish to NPM](https://github.com/47NordMedia/k2-systems-ui-library/actions/workflows/publish.yaml/badge.svg)](https://github.com/47NordMedia/k2-systems-ui-library/actions/workflows/publish.yaml)
+[![Publish to NPM](https://github.com/47NordMedia/k2-systems-ui-library/actions/workflows/publish.yaml/badge.svg?branch=main)](https://github.com/47NordMedia/k2-systems-ui-library/actions/workflows/publish.yaml)
 
 ## Description
 
@@ -55,9 +55,9 @@ Add the custom classes to your existing css files.
 
 ## Usage
 
-## Styleguide
+## Style-Guide
 
-use `npx serve dist -l 8081` to see the styleguide in the browser.
+use `npx serve dist -l 8081` to see the style-guide in the browser.
 
 ### Icon Library
 

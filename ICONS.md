@@ -7,10 +7,17 @@
 ## Setup
 
 ```js
+// with webpack build step
 import { initIcons, icons } from '@47nordmedia/k2-systems-ui-library/dist/icons';
+
+// without webpack build step
+import { initIcons, icons } from '@47nordmedia/k2-systems-ui-library/dist/icons_compiled';
 
 // init icon library
 initIcons();
+
+// init icon library with custom label
+initIcons({ label: 'k2-icon' })
 
 // list of all available icons
 console.log(icons)
@@ -55,10 +62,22 @@ e.g.:
 <span class="icon icon-secured-64 h-16 w-16"></span>
 ```
 
+Or with custom label:
+
+```html
+<span class="k2-icon icon-secured-64 h-16 w-16"></span>
+```
+
 will be replaced with
 
 ```html
 <svg class="icon icon-secured-64 h-16 w-16" ....
+```
+
+Or with custom label:
+
+```html
+<svg class="k2-icon icon-secured-64 h-16 w-16" ....
 ```
 
 
@@ -67,6 +86,7 @@ will be replaced with
 ### Webpack
 
 If webpack is complaining about a missing `svg` loader or unexpected tokens while compiling a `svg` file.
+You can also try to use the `/dist/icons_compiled` instead, since the SVG files are already included in this version.
 
 Try to add the `dist` folder of the ui library module to your `webpack.config.js` file.
 
