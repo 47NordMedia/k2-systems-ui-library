@@ -1,7 +1,7 @@
 import yargs from 'yargs/yargs';
 
 import { createClassTsFile, createIndexTsFile } from './tsBuilder';
-import { createCssFile } from './cssBuilder';
+import { createCssFile, createScssOverwrites } from './cssBuilder';
 import { camelize } from './helper';
 
 const argv = yargs(process.argv.slice(2))
@@ -10,6 +10,7 @@ const argv = yargs(process.argv.slice(2))
     l: { type: 'string', alias: 'classlist' },
     s: { type: 'boolean', alias: 'createstyle' },
     i: { type: 'boolean', alias: 'listicons' },
+    o: { type: 'boolean', alias: 'scssoverwrites' },
   })
   .parseSync();
 
@@ -38,4 +39,8 @@ if (argv.i) {
       console.log(iconKey);
     })
   );
+}
+
+if (argv.o) {
+  createScssOverwrites();
 }
