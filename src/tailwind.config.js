@@ -10,7 +10,7 @@ module.exports = {
     extend: {
       fontFamily: {
         display: ['Inter', 'system-ui', 'sans-serif'],
-        body: ['Inter', 'system-ui', 'sans-serif'],
+        body: ['Halvar', 'Inter', 'system-ui', 'sans-serif'],
         halvar: ['Halvar'],
       },
       colors: {
