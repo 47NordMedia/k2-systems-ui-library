@@ -10,7 +10,7 @@ module.exports = {
     extend: {
       fontFamily: {
         display: ['Inter', 'system-ui', 'sans-serif'],
-        body: ['Inter', 'system-ui', 'sans-serif'],
+        body: ['Halvar', 'Inter', 'system-ui', 'sans-serif'],
         halvar: ['Halvar'],
       },
       colors: {
@@ -42,110 +42,110 @@ module.exports = {
         '0xs': ['0rem', '0rem'],
         '2xs': [
           '0.813rem',
-           {
+          {
             letterSpacing: '0.005em',
             lineHeight: '1.5rem',
-          }
+          },
         ],
-        'xs': [
+        xs: [
           '1rem',
           {
             letterSpacing: '0.005em',
             lineHeight: '1.5rem',
           },
         ],
-        'sm': [
+        sm: [
           '1.125rem',
           {
             letterSpacing: '-0.015em',
             lineHeight: '1.5rem',
           },
         ],
-        'base': [
+        base: [
           '1.313rem',
           {
             letterSpacing: '-0.015em',
             lineHeight: '2rem',
           },
         ],
-        "md": [
+        md: [
           '1.5rem',
           {
             letterSpacing: '-0.025em',
             lineHeight: '2rem',
           },
         ],
-        "lg": [
+        lg: [
           '1.875rem',
           {
             letterSpacing: '-0.025em',
             lineHeight: '2.25rem',
           },
         ],
-        "xl": [
+        xl: [
           '2.5rem',
           {
             letterSpacing: '-0.025em',
             lineHeight: '3rem',
           },
         ],
-        "2xl": [
+        '2xl': [
           '2.625rem',
           {
             letterSpacing: '-0.025em',
             lineHeight: '3.25rem',
           },
         ],
-        "3xl": [
+        '3xl': [
           '3rem',
           {
             letterSpacing: '-0.025em',
             lineHeight: '3.5rem',
           },
         ],
-        "4xl": [
+        '4xl': [
           '3.5rem',
           {
             letterSpacing: '-0.025em',
             lineHeight: '4.25rem',
           },
         ],
-        "5xl": [
+        '5xl': [
           '4rem',
           {
             letterSpacing: '-0.025em',
             lineHeight: '4rem',
           },
         ],
-        "6xl": [
+        '6xl': [
           '4.5rem',
           {
             letterSpacing: '-0.025em',
             lineHeight: '5.5rem',
           },
         ],
-        "7xl": [
+        '7xl': [
           '5.5rem',
           {
             letterSpacing: '-0.025em',
             lineHeight: '5.5rem',
           },
         ],
-        "8xl": [
+        '8xl': [
           '6rem',
           {
             letterSpacing: '-0.025em',
             lineHeight: '6rem',
           },
         ],
-        "9xl": [
+        '9xl': [
           '7rem',
           {
             letterSpacing: '-0.025em',
             lineHeight: '7rem',
           },
         ],
-        "10xl": [
+        '10xl': [
           '9rem',
           {
             letterSpacing: '-0.025em',
