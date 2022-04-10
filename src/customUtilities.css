@@ -76,16 +76,7 @@
     scrollbar-width: none; /* Firefox */
   }
   /* -------- For orange color scheme -------- */
-  body.bg-orange h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  p,
-  li,
-  a,
-  button {
+  body.bg-orange {
     @apply text-white;
   }
   footer.bg-orange ul li a.text-darkGrey {
