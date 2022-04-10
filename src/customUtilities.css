@@ -54,14 +54,14 @@
   }
 
   .bg-tick {
-    background-image: url("../img/tick.svg");
+    background-image: url('../img/tick.svg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 14px;
   }
 
   .bg-radio {
-    background-image: url("../img/radio.svg");
+    background-image: url('../img/radio.svg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 65%;
@@ -74,5 +74,21 @@
   .no-scrollbar {
     -ms-overflow-style: none; /* IE and Edge */
     scrollbar-width: none; /* Firefox */
+  }
+  /* -------- For orange color scheme -------- */
+  body.bg-orange h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  li,
+  a,
+  button {
+    @apply text-white;
+  }
+  footer.bg-orange ul li a.text-darkGrey {
+    @apply text-orangeAccent;
   }
 }
