@@ -27,7 +27,7 @@ jobs:
         run: yarn install && yarn run build:production
       - name: Bump version and push changes
         run: |
-          git config user.name "florianporada"
+          git config user.name "florianporada-automation"
           git config user.email "florianporada@users.noreply.github.com"
 
           echo "Remove build related folders"
