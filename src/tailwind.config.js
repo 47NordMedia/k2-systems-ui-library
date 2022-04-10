@@ -35,7 +35,7 @@ module.exports = {
         brownAccent: '#FF5031',
         seaBlueAccent: '#4E85EF',
         pinkAccent: '#F00250',
-        orangeAccent: '#D08C29',
+        orangeAccent: '#FF9700',
         purpleAccent: '#BF22B0',
       },
       fontSize: {
