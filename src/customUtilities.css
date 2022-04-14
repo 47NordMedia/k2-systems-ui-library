@@ -75,12 +75,17 @@
     -ms-overflow-style: none; /* IE and Edge */
     scrollbar-width: none; /* Firefox */
   }
-  /* -------- For orange color scheme -------- */
+  /* -------- For different color scheme -------- */
   body.bg-orange,
-  body.bg-orange a {
+  body.bg-forestGreen,
+  body.bg-orange a,
+  body.bg-forestGreen a {
     @apply text-white;
   }
   footer.bg-orange ul li a.text-darkGrey {
     @apply text-orangeAccent;
+  }
+  footer.bg-forestGreen ul li a.text-darkGrey {
+    @apply text-forestGreenAccent;
   }
 }
