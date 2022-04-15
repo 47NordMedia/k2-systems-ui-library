@@ -2,6 +2,8 @@ const icons: { [key: string]: { svg: string } } = {
   '1-48': { svg: require('./icons/1-48.svg') },
   '2-48': { svg: require('./icons/2-48.svg') },
   '3-48': { svg: require('./icons/3-48.svg') },
+  '4-48': { svg: require('./icons/4-48.svg') },
+  '5-48': { svg: require('./icons/5-48.svg') },
   '15min-64': { svg: require('./icons/15min.svg') },
   'arrow-circle': { svg: require('./icons/arrow-circle.svg') },
   'arrow-right-14': { svg: require('./icons/arrow-right.svg') },
