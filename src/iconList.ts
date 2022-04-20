@@ -99,7 +99,7 @@ const icons: { [key: string]: { svg: string } } = {
   'flag-pt': { svg: require('./icons/portugal.svg') },
   'flag-ro': { svg: require('./icons/romania.svg') },
   'flag-rs': { svg: require('./icons/serbia.svg') },
-  'flag-si': { svg: require('./icons/slovenia.svg') },
+  'flag-sl': { svg: require('./icons/slovenia.svg') },
   'flag-ea': { svg: require('./icons/spain.svg') },
   'flag-za': { svg: require('./icons/south-africa.svg') },
   'flag-se': { svg: require('./icons/sweden.svg') },
