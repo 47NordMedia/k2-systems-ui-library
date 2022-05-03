@@ -78,77 +78,77 @@ module.exports = {
         lg: [
           '1.875rem',
           {
-            letterSpacing: '-0.025em',
+            letterSpacing: '-0.015em',
             lineHeight: '2.25rem',
           },
         ],
         xl: [
           '2.5rem',
           {
-            letterSpacing: '-0.025em',
+            letterSpacing: '-0.015em',
             lineHeight: '3rem',
           },
         ],
         '2xl': [
           '2.625rem',
           {
-            letterSpacing: '-0.025em',
+            letterSpacing: '-0.015em',
             lineHeight: '3.25rem',
           },
         ],
         '3xl': [
           '3rem',
           {
-            letterSpacing: '-0.025em',
+            letterSpacing: '-0.015em',
             lineHeight: '3.5rem',
           },
         ],
         '4xl': [
           '3.5rem',
           {
-            letterSpacing: '-0.025em',
+            letterSpacing: '-0.015em',
             lineHeight: '4.25rem',
           },
         ],
         '5xl': [
           '4rem',
           {
-            letterSpacing: '-0.025em',
+            letterSpacing: '-0.015em',
             lineHeight: '4rem',
           },
         ],
         '6xl': [
           '4.5rem',
           {
-            letterSpacing: '-0.025em',
+            letterSpacing: '-0.015em',
             lineHeight: '5.5rem',
           },
         ],
         '7xl': [
           '5.5rem',
           {
-            letterSpacing: '-0.025em',
+            letterSpacing: '-0.015em',
             lineHeight: '5.5rem',
           },
         ],
         '8xl': [
           '6rem',
           {
-            letterSpacing: '-0.025em',
+            letterSpacing: '-0.015em',
             lineHeight: '6rem',
           },
         ],
         '9xl': [
           '7rem',
           {
-            letterSpacing: '-0.025em',
+            letterSpacing: '-0.015em',
             lineHeight: '7rem',
           },
         ],
         '10xl': [
           '9rem',
           {
-            letterSpacing: '-0.025em',
+            letterSpacing: '-0.015em',
             lineHeight: '8.5rem',
           },
         ],
