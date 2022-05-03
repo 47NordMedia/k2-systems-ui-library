@@ -14,7 +14,7 @@
     "build:iconlib": "tsc --project tsconfig.json",
     "build:browserready": "webpack --config webpack.config.js",
     "copy:icons": "copyfiles -f './src/icons/*.svg' ./dist/icons/",
-    "copy:html": "copyfiles -f './src/index.html' ./dist/",
+    "copy:html": "copyfiles -f './src/*.html' ./dist/",
     "copy:fonts": "copyfiles -f './src/assets/font/*' ./dist/assets/font/",
     "copy:tailwindconfig": "copyfiles -f ./src/tailwind.config.js ./dist/",
     "copy:customCss": "copyfiles -f './src/customBase.css' './src/customComponents.css' './src/customUtilities.css' ./dist/",
