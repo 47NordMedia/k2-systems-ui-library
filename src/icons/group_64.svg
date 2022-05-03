@@ -1,0 +1,8 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="8" cy="31.7129" r="7.25" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="44.0015" cy="10.9282" r="7.25" transform="rotate(120 44.0015 10.9282)" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="43.9985" cy="52.4976" r="7.25" transform="rotate(-120 43.9985 52.4976)" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="56" cy="31.7129" r="7.25" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="20.0015" cy="52.4975" r="7.25" transform="rotate(120 20.0015 52.4975)" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="19.9985" cy="10.9282" r="7.25" transform="rotate(-120 19.9985 10.9282)" stroke="currentColor" stroke-width="1.5"/>
+</svg>

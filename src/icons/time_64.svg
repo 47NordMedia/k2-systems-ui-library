@@ -1,0 +1,23 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="path-1-inside-1_5586_22796" fill="white">
+<path d="M63 32C63 27.929 62.1982 23.8979 60.6403 20.1368C59.0824 16.3757 56.7989 12.9583 53.9203 10.0797C51.0417 7.20107 47.6243 4.91763 43.8632 3.35973C40.1021 1.80184 36.071 1 32 1L32 32H63Z"/>
+</mask>
+<path d="M63 32C63 27.929 62.1982 23.8979 60.6403 20.1368C59.0824 16.3757 56.7989 12.9583 53.9203 10.0797C51.0417 7.20107 47.6243 4.91763 43.8632 3.35973C40.1021 1.80184 36.071 1 32 1L32 32H63Z" stroke="currentColor" stroke-width="3" mask="url(#path-1-inside-1_5586_22796)"/>
+<path d="M23.9766 2.0563L25.0118 5.92001" stroke="currentColor" stroke-width="1.5"/>
+<path d="M5.15625 16.5L8.62035 18.5" stroke="currentColor" stroke-width="1.5"/>
+<path d="M2.0625 23.9758L5.9262 25.0111" stroke="currentColor" stroke-width="1.5"/>
+<path d="M16.5 5.1532L18.5 8.6173" stroke="currentColor" stroke-width="1.5"/>
+<path d="M10.0781 10.0797L12.9066 12.9081" stroke="currentColor" stroke-width="1.5"/>
+<path d="M32 59V63" stroke="currentColor" stroke-width="1.5"/>
+<path d="M38.9844 58.08L40.0197 61.9437" stroke="currentColor" stroke-width="1.5"/>
+<path d="M55.3828 45.5L58.8469 47.5" stroke="currentColor" stroke-width="1.5"/>
+<path d="M58.0781 38.9881L61.9418 40.0234" stroke="currentColor" stroke-width="1.5"/>
+<path d="M45.5 55.3827L47.5 58.8468" stroke="currentColor" stroke-width="1.5"/>
+<path d="M51.0938 51.0919L53.9222 53.9203" stroke="currentColor" stroke-width="1.5"/>
+<path d="M5 32L1 32" stroke="currentColor" stroke-width="1.5"/>
+<path d="M5.92188 38.9881L2.05817 40.0234" stroke="currentColor" stroke-width="1.5"/>
+<path d="M18.5 55.3827L16.5 58.8468" stroke="currentColor" stroke-width="1.5"/>
+<path d="M25.0156 58.08L23.9803 61.9437" stroke="currentColor" stroke-width="1.5"/>
+<path d="M8.61719 45.5L5.15309 47.5" stroke="currentColor" stroke-width="1.5"/>
+<path d="M12.9062 51.0919L10.0778 53.9203" stroke="currentColor" stroke-width="1.5"/>
+</svg>

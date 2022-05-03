@@ -1,0 +1,12 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="32" cy="32" r="15.25" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="52" cy="52" r="8.25" stroke="currentColor" stroke-width="1.5"/>
+<path d="M47.8954 51.7424L47.7836 51.8512L47.8967 51.9587L51.211 55.1087L51.3268 55.2188L51.4293 55.0963L56.115 49.4963L56.2092 49.3837L56.0988 49.2871L55.6416 48.8871L55.534 48.793L55.4348 48.8959L51.1018 53.3935L48.6125 51.2366L48.5084 51.1465L48.4097 51.2424L47.8954 51.7424Z" fill="currentColor" stroke="currentColor" stroke-width="0.3"/>
+<path d="M32 50L32 62" stroke="currentColor" stroke-width="1.5"/>
+<path d="M19.2734 44.7279L10.7882 53.2132" stroke="currentColor" stroke-width="1.5"/>
+<path d="M14 32L2 32" stroke="currentColor" stroke-width="1.5"/>
+<path d="M19.2734 19.2721L10.7882 10.7868" stroke="currentColor" stroke-width="1.5"/>
+<path d="M32 2L32 14" stroke="currentColor" stroke-width="1.5"/>
+<path d="M53.2109 10.7868L44.7257 19.2721" stroke="currentColor" stroke-width="1.5"/>
+<path d="M62 32L50 32" stroke="currentColor" stroke-width="1.5"/>
+</svg>

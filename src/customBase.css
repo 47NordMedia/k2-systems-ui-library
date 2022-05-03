@@ -70,9 +70,12 @@
   button {
     @apply text-sm xl:text-base font-halvar font-normal;
   }
-  button, a{
+
+  button,
+  a {
     @apply text-sm xl:text-base leading-[1.5rem] text-black;
   }
+
   label {
     @apply text-base tracking-normal;
   }
