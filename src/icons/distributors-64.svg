@@ -1,0 +1,10 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M39 46V9C39 7.89543 38.1046 7 37 7H3" stroke="currentColor" stroke-width="1.5"/>
+<path d="M10 53H3" stroke="currentColor" stroke-width="1.5"/>
+<path d="M23 53H19" stroke="currentColor" stroke-width="1.5"/>
+<path d="M46 53H32" stroke="currentColor" stroke-width="1.5"/>
+<path d="M3 46H59.0234C60.128 46 61.0234 45.1046 61.0234 44V32.4757C61.0234 32.1629 60.9501 31.8545 60.8093 31.5753L54.0153 18.0996C53.6754 17.4253 52.9846 17 52.2295 17H39.0234" stroke="currentColor" stroke-width="1.5"/>
+<path d="M32.25 53.5C32.25 56.1234 30.1234 58.25 27.5 58.25C24.8766 58.25 22.75 56.1234 22.75 53.5C22.75 50.8766 24.8766 48.75 27.5 48.75C30.1234 48.75 32.25 50.8766 32.25 53.5Z" stroke="currentColor" stroke-width="1.5"/>
+<path d="M19.25 53.5C19.25 56.1234 17.1234 58.25 14.5 58.25C11.8766 58.25 9.75 56.1234 9.75 53.5C9.75 50.8766 11.8766 48.75 14.5 48.75C17.1234 48.75 19.25 50.8766 19.25 53.5Z" stroke="currentColor" stroke-width="1.5"/>
+<path d="M55.25 53.5C55.25 56.1234 53.1234 58.25 50.5 58.25C47.8766 58.25 45.75 56.1234 45.75 53.5C45.75 50.8766 47.8766 48.75 50.5 48.75C53.1234 48.75 55.25 50.8766 55.25 53.5Z" stroke="currentColor" stroke-width="1.5"/>
+</svg>

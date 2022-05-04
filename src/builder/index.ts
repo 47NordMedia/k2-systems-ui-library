@@ -52,6 +52,7 @@ if (argv.i) {
     'diamonds',
     'digiBA',
     'digiDO',
+    'distributors',
     'download',
     'droplets',
     'family',
