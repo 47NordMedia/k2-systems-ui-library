@@ -66,7 +66,9 @@
     background-position: center center;
     background-size: 65%;
   }
-
+  .shadow-b {
+    box-shadow: 0px 20px 10px -15px rgba(0, 0, 0, 0.1);
+  }
   .no-scrollbar::-webkit-scrollbar {
     display: none;
   }
