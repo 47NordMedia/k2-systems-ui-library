@@ -31,6 +31,7 @@ module.exports = {
         pink: '#351625',
         orange: '#442707',
         purple: '#3A1837',
+        paper: '#EDEFF2',
         forestGreenAccent: '#D9E670',
         brownAccent: '#FF5031',
         seaBlueAccent: '#4E85EF',

@@ -13,6 +13,7 @@ const icons: { [key: string]: { svg: string } } = {
   'brochure-64': { svg: require('./icons/brochure-64.svg') },
   bronze: { svg: require('./icons/bronze.svg') },
   'cables-64': { svg: require('./icons/cables_64.svg') },
+  'calender-32': { svg: require('./icons/calender-32.svg') },
   'calender-64': { svg: require('./icons/calender-64.svg') },
   'certificates-64': { svg: require('./icons/certificates-64.svg') },
   'chat-64': { svg: require('./icons/chat-64.svg') },
